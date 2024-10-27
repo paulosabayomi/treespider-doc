@@ -1,0 +1,20 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.sectionsTitle {
+  text-align: center;
+  font-size: 110%;
+  /* background-color: red; */
+  width: 100%;
+  margin-bottom: 20px;
+}
+

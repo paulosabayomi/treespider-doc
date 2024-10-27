@@ -1,0 +1,250 @@
+---
+sidebar_position: 3
+---
+
+import React from "react";
+import TreeSpider from "treespider";
+
+# Basic Usage
+
+Presumming you've followed the installation steps, here is the basic usage of TreeSpider, all TreeSpider options are optional except the `targetContainer`, to intialize TreeSpider.
+
+## Initializing
+
+```html
+<div id="container-1"></div>
+```
+
+```ts
+import TreeSpider from "path/to/treespider/dist/es/treeSpider.bundle.min.js"
+
+// OR if TreeSpider was installed with npm in a project with a bundler
+
+// import TreeSpider from "treespider"
+
+const instance1 = new TreeSpider({
+    targetContainer: "#container-1"
+})
+```
+
+Then this will display TreeSpider in the browser with randomly generated fake data, next, load your organization data into TreeSpider, the data is linear and straight forward.  
+  
+## Passing organization data
+  
+The `tree_data` option takes an array of objects which will be the organization's employee data, the `id` property is required, and each employee will have a `parentId` which is the id of the department head that each employee reports to, and it is also required that there is an object/data that doesn't have a `parentId` which will serve as the root or the overall head of the organization.  
+
+```ts
+const employee_data = [
+    {
+        id: "1",
+        name: "Abayomi Amusa",
+        role: "CEO",
+        location: "Lagos, Nigeria"
+    },
+    {
+        id: "2",
+        parentId: "1",
+        name: "Trey Anderson",
+        role: "Product Manager",
+        location: "California, United States"
+    },
+    {
+        id: "3",
+        parentId: "1",
+        name: "Troy Manuel",
+        role: "Software Developer",
+        location: "Alberta, Canada"
+    },
+    {
+        id: "4",
+        parentId: "1",
+        name: "Rebecca Oslon",
+        role: "Software Developer",
+        location: "London, United Kingdom"
+    },
+    {
+        id: "5",
+        parentId: "1",
+        name: "David Scheg",
+        role: "Product Designer",
+        location: "Jiaozian, China"
+    },
+    {
+        id: "6",
+        parentId: "2",
+        name: "James Zucks",
+        role: "DevOps",
+        location: "Accra, Ghana"
+    },
+    {
+        id: "7",
+        parentId: "2",
+        name: "Zu Po Xe",
+        role: "Backend Developer",
+        location: "Johanesburg, South Africa"
+    },
+    {
+        id: "8",
+        parentId: "2",
+        name: "Scott Ziagler",
+        role: "FrontEnd Developer Intern"
+    },
+    {
+        id: "9",
+        parentId: "7",
+        name: "Xervia Allero",
+        role: "FrontEnd Developer Intern"
+    },
+    {
+        id: "10",
+        parentId: "3",
+        name: "Adebowale Ajanlekoko",
+        role: "Fullstack Developer"
+    },
+]
+
+const instance1 = new TreeSpider({
+    targetContainer: '#container-1',
+    tree_data: employee_data
+})
+```
+
+Notice the `CEO` doesn't have a `parentId` property and that signifies it is the root or the overall head of the organization, and each employee has the `parentId` property pointing the employee they report to, learn more about  the tree data structure on the tree date page.  
+  
+Then this will display the structure with the default tree type and other default options, zoom out and pan around to interact.  
+  
+export const TestTSpyderZ = React.memo(() => {
+    const employee_data = [
+        {id: "1", name: "Abayomi Amusa", role: "CEO", location: "Lagos, Nigeria"},
+        {id: "2", parentId: "1", name: "Trey Anderson", role: "Product Manager", location: "California, United States"},
+        {id: "3", parentId: "1", name: "Troy Manuel", role: "Software Developer", location: "Alberta, Canada"},
+        {id: "4", parentId: "1", name: "Rebecca Oslon", role: "Software Developer", location: "London, United Kingdom"},
+        {id: "5", parentId: "1", name: "David Scheg", role: "Product Designer", location: "Jiaozian, China"},
+        {id: "6", parentId: "2", name: "James Zucks", role: "DevOps", location: "Accra, Ghana"},
+        {id: "7", parentId: "2", name: "Zu Po Xe", role: "Backend Developer", location: "Johanesburg, South Africa"},
+        {id: "8", parentId: "2", name: "Scott Ziagler", role: "FrontEnd Developer Intern"},
+        {id: "9", parentId: "7", name: "Xervia Allero", role: "FrontEnd Developer Intern"},
+        {id: "10", parentId: "3", name: "Adebowale Ajanlekoko", role: "Fullstack Developer"},
+    ]
+
+    React.useLayoutEffect(() => {
+        const inst1 = new TreeSpider({
+            targetContainer: "#test-cont-bu-0",
+            tree_data: employee_data, // from the example above
+            width: "100%"
+        })
+    }, [])
+
+    return (
+        <div id="test-cont-bu-0" style={{marginBottom: 35}}></div>
+    )
+})
+
+<TestTSpyderZ />
+
+::::info
+There can be multiple TreeSpider instances on the same page
+::::
+
+## Options
+
+You can also customize it or choose the tree type and chart head you want, like for example let's choose the `cellar` tree type with the `landscape` chart head type and also a `blurry` background pattern.
+
+```ts
+// ...
+
+const instance1 = new TreeSpider({
+    targetContainer: "#container-1",
+    tree_data: employee_data, // from the example above
+    tree_type: "cellar",
+    chart_head_type: "landscape",
+    backgroundPattern: "blurry",
+    width: "100%", // added so it will fit the container area
+})
+```
+
+And this will be displayed as below
+
+export const TestTSpyder = React.memo(() => {
+    const employee_data = [
+        {id: "1", name: "Abayomi Amusa", role: "CEO", location: "Lagos, Nigeria"},
+        {id: "2", parentId: "1", name: "Trey Anderson", role: "Product Manager", location: "California, United States"},
+        {id: "3", parentId: "1", name: "Troy Manuel", role: "Software Developer", location: "Alberta, Canada"},
+        {id: "4", parentId: "1", name: "Rebecca Oslon", role: "Software Developer", location: "London, United Kingdom"},
+        {id: "5", parentId: "1", name: "David Scheg", role: "Product Designer", location: "Jiaozian, China"},
+        {id: "6", parentId: "2", name: "James Zucks", role: "DevOps", location: "Accra, Ghana"},
+        {id: "7", parentId: "2", name: "Zu Po Xe", role: "Backend Developer", location: "Johanesburg, South Africa"},
+        {id: "8", parentId: "2", name: "Scott Ziagler", role: "FrontEnd Developer Intern"},
+        {id: "9", parentId: "7", name: "Xervia Allero", role: "FrontEnd Developer Intern"},
+        {id: "10", parentId: "3", name: "Adebowale Ajanlekoko", role: "Fullstack Developer"},
+    ]
+
+    React.useLayoutEffect(() => {
+        const inst1 = new TreeSpider({
+            targetContainer: "#test-cont-bu-1",
+            tree_data: employee_data, // from the example above
+            tree_type: "cellar",
+            chart_head_type: "landscape",
+            backgroundPattern: "blurry",
+            width: "100%",
+        })
+    }, [])
+
+    return (
+        <div id="test-cont-bu-1"></div>
+    )
+})
+
+<TestTSpyder />
+
+## Methods
+  
+You can also programmatically interact with TreeSpider, for instance let's programatically initialize TreeSpider, we will set the `autoInitialize` option to `false` then programmatically initialize it by calling the `TreeSpider.initialize()` method.
+
+```ts
+const inst1 = new TreeSpider({
+            targetContainer: "#container-1",
+            // ...
+            autoInitialize: false
+        });
+
+document.querySelector("#button").onclick = () => {
+    inst1.initialize();
+}
+
+```
+
+In the example above an `onclick` event was attached to a button to initialize TreeSpider onclick, to see this option in action click on the button below.
+
+export const TestTSpyderT = React.memo(() => {
+    const treeSpiderRef = React.useRef()
+    const btnRef = React.useRef()
+
+    const initializeTS = React.useCallback(() => {
+        if (!treeSpiderRef.current) return;
+        treeSpiderRef.current.initialize()
+        btnRef.current.remove()
+    }, [treeSpiderRef.current, btnRef.current])
+
+    React.useLayoutEffect(() => {
+        treeSpiderRef.current = new TreeSpider({
+            targetContainer: "#test-cont-bu-3",
+            width: "100%",
+            random_data_length: 30,
+            autoInitialize: false
+        })
+    }, [])
+
+    return (
+        <>
+            <div id="test-cont-bu-3"></div>
+            <button ref={(e) => btnRef.current = e} onClick={initializeTS}>Click me to initialize TreeSpider</button>
+        </>
+    )
+})
+
+<TestTSpyderT />
+
+## UI interaction
+
+You can interact with the chart by double clicking on the chart heads to automatically zoom them in, pan in any direction, zoom in an out with pointer and mouse event, collapse and expand chart heads, and also interact using the UI tools.
