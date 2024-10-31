@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 7
 ---
 
 import React from "react";
@@ -19,160 +19,534 @@ The target container in which TreeSpider will be spawned/created into, this is r
 
 ## placeEl
   
-- Type: *'override' | 'start' | 'end' | `{beforeEl: string}`*
+- Type: *'override' \| 'start' \| 'end' \| `{beforeEl: string}`*
 - Default: `'override'`
 - *optional*
   
 How TreeSpider container should be placed in the target container, set it to an object if the TreeSpider root container should be placed before a container in the provided target container, pass in `beforeEl` and the CSS selector of the container which TreeSpider should be inserted before in the target container.
+  
+## width
+  
+- Type: *`string`*
+- Default: *`900px`*
+- *optional*
 
+The width of the TreeSpider wrapper container
+
+## height
+
+- Type: *`string`*
+- Default: *`500px`*
+- *optional*
+
+The height of the TreeSpider wrapper container
+  
 ## autoInitialize
   
 - Type: *boolean*
-- Default: `true`
+- Default: *`true`*
 - *optional*
   
-Set this option to `false` if you want to programmatically initialize TreeSpider, treeSpider will not automatically initialize if this option is set to `false`, then you will have to call the `TreeSpider.initialize` method to initialize TreeSpider.
+Set this option to `false` if you want to programmatically initialize TreeSpider, treeSpider will not automatically get initialized if this option is set to `false`, then you will have to call the `TreeSpider.initialize()` method to manually initialize TreeSpider.
 
-    /**
-     * An array of data containing employee details and relationship
-     */
+## tree_data
+
+- Type: *Array\<IChartHead\>*
+- Default: *`undefined`*
+- *optional*
+
+An array of data containing employee details and relationship, see [tree data](/tree-data) page for more info.
+
+## color_range
+
+- Type: *string[]*
+- Default: *['#b31212', '#b34712', '#b38d12', '#9ab312', '#2fb312', '#12b362', '#12b3a8', '#1278b3', '#1712b3', '#5712b3', '#8d12b3', '#b3128d', '#b3124a', '#b31212']*
+- *optional*
+
+An array of colors which will be used as color range, set more than one color for better output, the provided number of colors should be more than one, by default it uses a set of color ranges, behind the scene TreeSpider will interpolates the provided color using [d3.interpolateRgbBasis()](https://d3js.org/d3-interpolate/color#interpolateRgbBasis) and then slice out the color at the index equivalent to the employee index in the provided tree data, the provided color can be either in hex format or color names like `yellow`, `red`, `green`, `blue` and so on.
+
+## tree_type
+
+- Type: *string*
+- Default: *default*
+- *optional*
+
+The type of chart or tree, by default it uses the 'default' chart/tree which is the hierarchy-like tree type, the possible values is one of the following  
+  
+| Tree types |
+| ---- |
+|`default` |
+| `cellar` |
+| `goldenRod` |
+| `hSpider` |
+| `hSpiderWalk` |
+| `radialSpiderLeg` |
+| `vSpiderWalk` |
+
+## chart_head_type
+
+- Type: *string*
+- Default: *default*
+- *optional*
+
+The type of chart head that will be used to display employee details, it is set to 'default' by default, and you can set it to either one of the following.  
+  
+| Chart head types |
+| ---- |
+| 'default' |
+| 'landscape' |
+| 'rounded' |
+
+## show_tools
+
+- Type: *`boolean`*
+- Default: *`true`*
+- *optional*
+
+Set this to `false` to not display the UI tools panel, the UI tool panel is the rectangular box floating at the top left corner of the TreeSpider container and it contains the tools for interacting with TreeSpider, note that some tools, like start rotating clockwise/anticlockwise and rotate once clockwise/anticlockwise, are only available for radial tree types or simply tree types that are circular in shape, example is the `radialSpiderLeg` tree type.
+
+## show_chart_head_border
+
+- Type: *`boolean`*
+- Default: *`true`*
+- *optional*
+
+Set this parameter to `false` to not show border around the chart head, note setting this to `false` will also remove the background color of the chart head when using the `radialSpiderLeg` tree type.
+
+## animation_rotation_speed
+
+- Type: *`number`*
+- Default: *`10`*
+- *optional*
+
+Use this to set the animation rotation speed, it is in milliseconds, passing 1000 is going to be 1s, it works like the number passed to the `setInterval` that sets the duration, if it was set to, for example, 20 milliseconds, and during continuous rotation the rotation callback function will be called with a pause of 20 milliseconds, the smaller the `animation_rotation_speed` the smoother and faster the rotation.
+
+## animation_rotation_interval
+
+- Type: *`number`*
+- Default: *`1`*
+- *optional*
+
+The degree increment of the rotation, default is 1, the provided number is going to be converted to degrees, for example if the provided number is 20 then the tree is going to be rotating 20 degrees per the interval set through the  `animation_rotation_speed` option, the smaller the interval the smoother the rotation.
+
+## backgroundPattern
+
+- Type: *`string`*
+- Default: *`default`*
+- *optional*
+
+The pattern is an SVG pattern that will be used as the background of the TreeSpider container, by default it is set to the `'default'` background pattern which is a dotted SVG background, the option can be one of the following.  
+  
+| Patterns |
+| ---- |
+| `none` |
+| `default` |
+| `flux` |
+| `quad` |
+| `blurry` |
+| `chaos` |
+| `flurry` |
+| `spiral` |
+| `whirling` |
+| `replicate` |
+| `scribble` |
+| `squiggly` |
+| `gyrrate` |
+| `leaves` |
+| `spot` |
+
+## backgroundPosition
+
+- Type: *`string`*
+- Default: *`undefined`*
+- *optional*
+
+The CSS background position of the SVG background, to further customize the SVG background you can set this option to one of the following
+
+| Background positions |
+| ---- |
+| `bottom` |
+| `center` |
+| `inherit` |
+| `initial` |
+| `left` |
+| `right` |
+| `top` |
+| `unset` |
+| `${number}%` |
+| `${number}px` |
+
+## backgroundSize
+
+- Type: *`string`*
+- Default: *`undefined`*
+- *optional*
+
+The size of the background svg pattern, for a further customization, you can set the size of the SVG background pattern, it is the CSS `background-size` property, it can be in any CSS units, like `px`, `%`, `pc`, `rem` and so on.
+
+## customBackground
+
+- Type: *`string`*
+- Default: *`undefined`*
+- *optional*
+
+The SVG background to be used instead of the ones that comes with TreeSpider, if you would like to use a custom SVG background as the background pattern of the TreeSpider container you can set it with this option, set this option to the stringified SVG element to be used as the background pattern, then the above background options can be used to configure the provided custom background.
+
+## head_linker_thumb_circle_radius
+
+- Type: *`number`*
+- Default: *`8`*
+- *optional*
+
+The radius/width of the linker thumb, ignore the confusing name of this option, the linker thumb is the SVG shape(s) that is/are at the edge(s) of chart heads which is/are used for hiding and unhiding chart children container and also for showing the link destination from a parent to child chart head, to change the size of the shape set this to a desired size.
+
+## linker_thumb_icon_color
+
+- Type: *`string`*
+- Default: *`bright500`*
+- *optional*
+
+The color of the linker thumb icon, that is, the icon inside the chart head link thumb, as described above, the inner thumb icon toggles between a plus icon and a times icon when the chart head child container hides and unhides, to customize the color you can set it to one of the following:  
+  
+| Thumb icon colors |
+| ---- |
+| `brighter` |
+| `bright500` |
+| `bright100` |
+
+## linker_thumb_shape
+
+- Type: *`string`*
+- Default: *`symbolCircle`*
+- *optional*
+
+The shape of the linker thumb, the shape is a list of default D3 shapes, you can set it to the shape of your choice, the following is the of the supported shapes:  
+  
+| Linker thumb shapes |
+| ---- |
+| `symbolAsterisk` |
+| `symbolCircle` |
+| `symbolCross` |
+| `symbolDiamond` |
+| `symbolDiamond2` |
+| `symbolPlus` |
+| `symbolSquare` |
+| `symbolSquare2` |
+| `symbolStar` |
+| `symbolTriangle` |
+| `symbolTriangle2` |
+| `symbolWye` |
+| `symbolX` |
+
+## head_image_shape
+
+- Type: *`string`*
+- Default: *`symbolCircle`*
+- *optional*
+
+The shape of the chart head image or the employee name initials container, just like the linker thumb, you can change the shape to the one you prefer, the shapes are default D3 shapes and the following is the list of shapes you can choose from:  
+  
+| Head image shapes |
+| ---- |
+| `symbolCircle` |
+| `symbolCross` |
+| `symbolDiamond` |
+| `symbolDiamond2` |
+| `symbolSquare` |
+| `symbolSquare2` |
+| `symbolStar` |
+| `symbolTriangle` |
+| `symbolTriangle2` |
+| `symbolWye` |
+
+## chart_head_bg
+
+- Type: *`string`*
+- Default: *`#ffffff`*
+- *optional*
+
+The chart head background color, useful in the scenerio where you want the background to match your website's color mode
+
+## auto_set_chart_head_bg
+
+- Type: *`boolean`*
+- Default: *`false`*
+- *optional*
+
+Set this option to `true` if you want TreeSpider to automatically use the webpage's body tag as the background color of the chart heads.
+
+## display_tree_in_step
+
+- Type: *`boolean`*
+- Default: *`false`*
+- *optional*
+
+If this option is set to `true`, TreeSpider will render the tree data in steps with the default or provided number of tree level steps, for instance, if the `tree_level_step` option was set to 3, then the 3 level of the organization structure data will, by default on initialization, be displayed, excluding the root of the chart like, for example, `Root (CEO) -> Heads (level 1) -> Leads (level 2) -> Seniors (level 3)`, then if there are further levels below **level 3** the linker thumb will be added to each of the level 3 chart heads to render further levels with the same step meaning the further levels below level 3 will also be rendered in 3 levels down and that is how it is going to keep going until the last level, this feature is useful when the tree data is more than 1000, or in an organization with employees more than 1000, rendering tree data that is 1000 in length can take 2 to 4 seconds on a 16gb RAM computer (that's because that is the kind of computer I used to build the library) to render and in if a tree data of 5000 in length were to be rendered that would be the average time taken to render 1000 tree data length times 5, that would be around maximum of 10s which is going to be bad for user experience, setting this option to `true` fixes this issue.
+
+## auto_display_tree_in_step
+
+- Type: *`boolean`*
+- Default: *`true`*
+- *optional*
+
+This option, which is `true` by default, displays the tree data in steps if the tree data is more than 500 for optimization, better performance and good user experience, but you can set it `false`, though not recommended, if you are running TreeSpider on a computer with great capacity and that can render large tree data less than a second and will not affect the user experience.
+
+## tree_level_step
+
+- Type: *`number`*
+- Default: *`2`*
+- *optional*
+
+The steps to display trees, on initialization the number of the provided steps will be rendered, when a tree whose children are hidden by default is expanded its children will also be rendered in the number of the provided step.
+
+## pallet
+
+- Type: *`Object`*
+- Default: *`{
+            h: 10,
+            s: 0.5,
+            l: 0.5,
+            darker: 3,
+            brighter: 0.8,
+            bright100: 0.5,
+            dark100: 0.5,
+            gray: 50,
+            gray85: 85
+        }`*
+- *optional*
+
+This option is for tuning the colors of the items in the chart heads, the chart head has variants of colors, first the chart head gets assigned a color from the interpolated color, of the default or the provided colors, based on the index of its data in the tree data, then other colors are then gotten from the variant of the assigned color, and to customize these color variants you can set the value of the properties of the color pallet to match your need, explanation of the properties of the option is below:  
+  
+| Property | Type | Description |
+| ---- | ---- | ---- |
+| h | `number` | h stands for the hue in the hsl CSS color |
+| s | `number` | s is the saturation in the hsl CSS color |
+| l | `number` | l is the light in the hsl CSS color, use this to set the brightness of the color variants |
+| darker | `number` | this property specifies how much darker should the darker variants be |
+| brighter | `number` | This property specifies how much brighter the brighter variants should be, this brighter value is the direct variant of the original color |
+| bright100 | `number` | The brighter variant of the hsl tuned original color |
+| dark100 | `number` | The bright variant of the hsl tuned original color |
+| gray | `number` | This is a gray color, generated with `d3.gray`, you can tune and set the level of the generated gray, the value ranges from `0-100` where 0 is the darkest gray and 100 is the lightest gray. |
+| gray85 | `number` | This property is just like `gray` except that it is set to `85%` by default and you can reduce or increase it as you wish |  
+  
+See [d3 color documentation](https://d3js.org/d3-color) to learn more.
+
+## tree_link_type
+
+- Type: *`string`*
+- Default: *`undefined`*
+- *optional*
+
+TreeSpider uses d3 link curves, and some of the d3 curves are supported, the following are the d3 link curves that TreeSpider supports:  
+  
+| Link types |
+| ---- |
+| `curveBumpX` |
+| `curveBumpY` |
+| `curveBasisClosed` |
+| `curveLinear` |
+| `curveStep` |
+| `curveStepAfter` |
+| `curveStepBefore` |
+  
+## random_data_length
+
+- Type: *`number`*
+- Default: *`200`*
+- *optional*
+  
+The length of the random number, by default the length of the random generated fake data is 200 but you can increase or decrease it with this option.
+
+## zoom_in_distance
+
+- Type: *`number`*
+- Default: *`1.5`*
+- *optional*
+
+The extent to be zoomed in when the zoom in button is clicked, this doesn't apply when zooming in with the mouse or touch event.
+    
+## zoom_out_distance
+
+- Type: *`number`*
+- Default: *`0.5`*
+- *optional*
+
+The extent to be zoomed out when the zoom out button is clicked, just like the `zoom_in_distance` this option also doesn't apply to when zooming out with the mouse and touch event.
+
+## verticalSpace
+
+- Type: *`string`*
+- Default: *`120px`*
+- *optional*
+
+The vertical space between heads, set this to a lower or higher number to decrease or increase the distance between parent and children heads.
+
+## font_link
+
+- Type: *`string`*
+- Default: *`https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap`*
+- *optional*
+
+The link of the google font you would like TreeSpider to use, this can also be a path to a font available locally, but font CDN is highly recommended, and currently it is not guaranteed that other font CDNs except Google Fonts CDN are going to work well, but they can still be tried out.
+
+## font_name
+
+- Type: *`string`*
+- Default: *`Lato`*
+- *optional*
+
+If you provide a custom font to the `font_link` option set this option to the name of the custom font that was provided to the `font_link` option, you can also set this option to the name of the font that has already been loaded in the application.  
+  
+## Interfaces
+
+The following are the TreeSpider typeScript interfaces.
+  
+### ITreeSpiderMain
+  
+This is the TreeSpider option typescript interface
+
+```ts
+{
+    targetContainer: string;
+    placeEl?: 'override' | 'start' | 'end' | {beforeEl: string};
+    autoInitialize?: boolean;
     tree_data?: Array<IChartHead>;
-    /**
-     * An array of colors which will be used as color range, set more than 
-     * one color for better output
-     */
     color_range?: string[];
-    /**
-     * The type of chart, it is set to 'default' by default
-     */
     tree_type?: 'default' | 'cellar' | 'goldenRod' | 'hSpider' | 'hSpiderWalk' | 'radialSpiderLeg' | 'vSpiderWalk';
-    /**
-     * The type of chart head
-     */
     chart_head_type?: TChartHeadType;
-    /**
-     * Set this to `false` to not display the tool UI
-     */
     show_tools?: boolean;
-    /**
-     * Set this parameter to `false` to not show border around the chart head, 
-     * note setting this to `false` will also remove the charthead background for the radialSpiderLeg tree type
-     */
     show_chart_head_border?: boolean;
-    /**
-     * Use this to set the animation rotation speed
-     */
     animation_rotation_speed?: number;
-    /**
-     * The degree increment of the rotation, default is 1
-     */
     animation_rotation_interval?: number;
-    /**
-     * The background pattern of your choice
-     */
     backgroundPattern?: 'none' | 'default' | 'flux' | 'quad' | 'blurry' | 'chaos' | 
         'flurry' | 'spiral' | 'whirling' | 'replicate' | 'scribble' | 'squiggly' | 
         'gyrrate' | 'leaves' | 'spot';
-    /**
-     * The CSS background position of the SVG background
-     */
     backgroundPosition?: 'bottom' | 'center' | 'inherit' | 'initial' | 'left' | 
         'right' | 'top' | 'unset' | `${number}%` | `${number}px`;
-    /**
-     * The size of the background svg pattern
-     */
     backgroundSize?: string;
-    /**
-     * The SVG background to be used instead of the TreeSpider ones
-     */
     customBackground?: string;
-    /**
-     * The radius/width of the linker thumb
-     */
     head_linker_thumb_circle_radius?: number;
-    /**
-     * The color of the linker thumb icon that shows if the head children has been collapsed or not
-     */
     linker_thumb_icon_color?: TLinkerCircleColor;
-    /**
-     * The shape of the linker thumb
-     */
     linker_thumb_shape?: TLinkerShape;
-    /**
-     * The shape of the head image or the employee initials wrapper if image is unavailable
-     */
     head_image_shape?: THeadImageShape;
-    /**
-     * The chart head background color, useful in cases where you want the background to 
-     * match your website color mode
-     */
     chart_head_bg?: string;
-    /**
-     * The parameter to set whether the library should automatically use the webpage's
-     * body tag's background color as the chart head background color
-     */
     auto_set_chart_head_bg?: boolean;
-    /**
-     * The parameter to set whether to automatically display-in-step when rendering 
-     * large data that is more than 500, it is advisable to keep this parameter to `true`
-     * when working with large data that is more than 3000 employees because it is going
-     * take few seconds to render which is bad for user experience
-     */
     display_tree_in_step?: boolean;
-    /**
-     * The parameter to disable auto display tree in step feature
-     */
     auto_display_tree_in_step?: boolean;
-    /**
-     * The steps to display trees, on initialization the number of the provided step will be rendered, 
-     * when a tree whose children are hidden by default
-     * is expanded its children will also be rendered in the number of the provided step
-     */
     tree_level_step?: number;
-    /**
-     * The parameter to tune the chart head color
-     */
     pallet?: TColorPallet;
-    /**
-     * The type of tree link you want to use
-     */
     tree_link_type?: TLinkType;
-    /**
-     * The length of the random number
-     */
     random_data_length?: number;
-    /**
-     * Suspended - random_data_locale
-     * The locale of the random data, it automatically use the user's device's locale 
-     * gotten through the browser
-     */
-    // random_data_locale?: string;
-    /**
-     * The distance to be zoomed in
-     */
     zoom_in_distance?: number;
-    /**
-     * The distance to be zoomed out
-     */
     zoom_out_distance?: number;
-    /**
-     * The vertical space between heads, set this to a lower or higher number to
-     * decrease or increase the distance between parent and children heads
-     */
     verticalSpace?: string;
-    /**
-     * The CDN of the Google font to be loaded
-     */
     font_link?: string;
-    /**
-     * The name of the provided font
-     */
     font_name?: string;
-    /**
-     * The width of the TreeSpider wrapper container
-     */
     width?: string;
-    /**
-     * The height of the TreeSpider wrapper container
-     */
     height?: string;
+}
+```
+
+### IChartHead
+
+The tree data typescript interface
+
+```ts
+{
+    id: string;
+    name: string;
+    role: string;
+    location?: string;
+    parentId?: string;
+    stat?: number;
+    image?: string;
+}
+```
+
+### ID3DataFormat
+
+This is the d3 data format, it is just the same as the `IChartHead` interface except that it has the `children` property that is an array of `IChartHead`.
+
+```ts
+ID3DataFormat extends IChartHead {
+    children: IChartHead[];
+}
+```
+
+## Types
+
+The following are the TreeSpider typeScript types
+
+### TColorPallet
+
+This is the color pallet typescript type
+
+```ts
+{
+    h: number;
+    s: number;
+    l: number;
+    darker: number;
+    brighter: number;
+    bright100: number;
+    dark100: number;
+    gray: number;
+    gray85: number;
+}
+```
+
+### TTreeType
+
+This is the type of the TreeSpider tree types
+
+```ts
+'default' | 'cellar' | 'goldenRod' | 'hSpider' | 'hSpiderWalk' | 'radialSpiderLeg' | 'spiderlingsPack' | 'vSpiderWalk'
+```
+
+### TChartHeadType
+
+The type of the chart head types
+
+```ts
+'default' | 'landscape' | 'rounded'
+```
+
+### TLinkType
+
+The type of the link types
+
+```ts
+'curveBumpX' | 'curveBumpY' | 'curveBasisClosed' | 'curveLinear' | 'curveStep' | 'curveStepAfter' | 'curveStepBefore'
+```
+
+### THeadImageShape
+
+The type of the head image shapes
+
+```ts
+'symbolCircle' | 'symbolCross' | 'symbolDiamond' | 'symbolDiamond2' | 'symbolSquare' | 'symbolSquare2' | 'symbolStar' | 'symbolTriangle' | 'symbolTriangle2' | 'symbolWye'
+```
+
+### TLinkerCircleColor
+
+The type of the linker color
+
+```ts
+'brighter' | 'bright500' | 'bright100'
+```
+
+### TLinkerShape
+
+The type of the linker thumb shape
+
+```ts
+'symbolAsterisk' | 'symbolCircle' | 'symbolCross' | 'symbolDiamond' | 'symbolDiamond2' | 'symbolPlus' | 'symbolSquare' | 'symbolSquare2' | 'symbolStar' | 'symbolTriangle' | 'symbolTriangle2' | 'symbolWye' | 'symbolX'
+```
+  
+### TEventType
+  
+The type for the list of available events.  
+  
+```ts
+'chart_head.create' | 'chart_head.expanded' | 'chart_head.collapsed' | 'zooming' | 'library.init'
+```

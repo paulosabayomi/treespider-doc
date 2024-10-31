@@ -1,0 +1,98 @@
+---
+sidebar_position: 6
+---
+
+import React from "react"
+import TreeSpider from 'treespider';
+
+# Chart Heads
+
+As TreeSpider has different tree types so it also has different options of chart heads that can be chosen from, each trees has a fitting chart head, for example the `rounded` chart head goes well on the `goldenRod` tree, the chart heads are as follows
+  
+## default
+  
+This is the default chart head, example
+  
+```ts
+const instance1 = new TreeSpider({
+    targetContainer: "#container-1",
+    chart_head_type: "default"
+})
+```
+
+if you run this it would look somthing like this:  
+  
+export const TSpydExample1 = React.memo(() => {
+    React.useLayoutEffect(() => {
+        const inst1 = new TreeSpider({
+            targetContainer: "#spyd-tr-1",
+            random_data_length: 50,
+            width: '100%',
+            chart_head_type: "default"
+        })
+    }, [])
+    
+    return (
+        <div id="spyd-tr-1" style={{marginBottom: 25}}></div>
+    )
+})
+
+<TSpydExample1 />
+
+## landscape
+
+The `landscape` chart head is an horizontal chart head, example
+
+```ts
+const instance1 = new TreeSpider({
+    targetContainer: "#container-1",
+    chart_head_type: "landscape"
+})
+```
+
+if you run this it would look something like this:  
+  
+export const TSpydExample2 = React.memo(() => {
+    React.useLayoutEffect(() => {
+        const inst1 = new TreeSpider({
+            targetContainer: "#spyd-tr-2",
+            random_data_length: 50,
+            width: '100%',
+            chart_head_type: "landscape"
+        })
+    }, [])
+    
+    return (
+        <div id="spyd-tr-2" style={{marginBottom: 25}}></div>
+    )
+})
+
+<TSpydExample2 />
+
+## rounded
+
+The rounded chart head is a transparent head with bigger image shape, example
+
+```ts
+const instance1 = new TreeSpider({
+    targetContainer: "#container-1",
+    chart_head_type: "rounded"
+})
+```
+
+export const TSpydExample3 = React.memo(() => {
+    React.useLayoutEffect(() => {
+        const inst1 = new TreeSpider({
+            targetContainer: "#spyd-tr-3",
+            random_data_length: 50,
+            width: '100%',
+            chart_head_type: "rounded"
+        })
+    }, [])
+    
+    return (
+        <div id="spyd-tr-3" style={{marginBottom: 25}}></div>
+    )
+})
+
+<TSpydExample3 />

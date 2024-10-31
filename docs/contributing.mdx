@@ -1,0 +1,55 @@
+---
+sidebar_position: 12
+---
+
+import React from "react"
+import TreeSpider from 'treespider';
+
+# Contributing
+
+TreeSpider is still a work-in-progress and I am planning to make it better that it currently is, and your contribution is highly appreciated, and if you need a feature or want to add a tree type, a new chart head, a new link type or any other things you are welcome to contribute them, or if you noticed a bug you're welcome to create a pull request, your contributions are appreciated.
+  
+## Codebase short intro
+  
+TreeSpider is fully built with D3 and object oriented TypeScript, and it also uses rollup as the bundler, the source code is under the **src** directory and the output bundle is in the **dist** directory.
+  
+## Technologies used
+  
+The following are the technologies used
+  
+- D3.js
+- TypeScript
+- SCSS
+- rollup
+- babel
+- jest
+  
+## Getting started
+  
+To get started to contribute, in a convenient directory on your computer, open the terminal and clone the [TreeSpider github repository](https://github.com/paulosabayomi/treeSpider), then run `npm i` to install all the dev dependencies, then install `sass` globally with `npm i -g sass`.  
+  
+## Starting the project
+  
+To start the project, in the `package.json` file check the list of commands under the `scripts` property for all the commands needed for development and bundling, to start rollup bundler in watch-mode for development run
+
+```bash
+npm run rollup-watch
+```
+  
+Next, start the sass css compiler in watch mode by running
+  
+```bash
+npm run sass
+```
+  
+Then you are good to go and to start making changes, the single scss file is under the `/scss` directory.  
+  
+## Testing
+  
+After development, testing is neccessary, to test you can either add some test cases to the already created test files under the `/__test__` directory or create new test files, after creating the tests or if no tests were added, run 
+
+```bash
+npm run test
+```
+
+If all tests passed, then you can create a pull request, no need for bundling as it will be bundled with GitHub Actions after it has been merged.

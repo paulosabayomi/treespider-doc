@@ -1,0 +1,114 @@
+---
+sidebar_position: 10
+---
+
+# Events
+
+TreeSpider has a list of events that can be listened for, the below is a list of all events.  
+  
+The events can be listened to by using the `TreeSpider.addEventListener()` or with the `on()` method.  
+  
+## library.init
+  
+- Data: *`rootContainer: HTMLElement`*
+  
+This event is emited once and immediately after TreeSpider has been initialized, example:  
+  
+```ts
+const inst1 = new TreeSpider({
+    targetContainer: "#container-1"
+})
+
+inst1.addEventListener("library.init", (e) => {
+    console.log("TreeSpider has been initialized")
+})
+
+// OR
+// inst1.on("library.init", (e) => {
+//     console.log("TreeSpider has been initialized")
+// })
+```
+  
+## chart_head.create
+  
+- Data: *`headNode: SVG`*
+  
+This event is emited after a chart head has been created and has not been added to the UI, it returns the SVG element of the chart head that was just created, this event is emited for each of the chat heads, example
+
+```ts
+const inst1 = new TreeSpider({
+    targetContainer: "#container-1"
+})
+
+inst1.addEventListener("chart_head.create", (e) => {
+    console.log("Chat head created; SVG: ", e.detail.headNode)
+})
+
+// OR
+// inst1.on("chart_head.create", (e) => {
+//     console.log("Chat head created; SVG: ", e.detail.headNode)
+// })
+```
+
+## chart_head.expanded
+  
+- Data: *`svgNode: SVG, head_data: Object, pointPosition: number`*
+  
+This event is emited whenever a chat head got expanded, it returns the SVG node of the expanded chart head, the data of the chart head and the point position, the point position is always `1` except for chart heads with double point positions, example.  
+  
+```ts
+const inst1 = new TreeSpider({
+    targetContainer: "#container-1"
+})
+
+inst1.addEventListener("chart_head.expanded", (e) => {
+    console.log("Chat head expanded; data ", e.detail)
+})
+
+// OR
+// inst1.on("chart_head.expanded", (e) => {
+//     console.log("Chat head expanded; data ", e.detail)
+// })
+```
+
+## chart_head.collapsed
+  
+- Data: *`svgNode: SVG, head_data: Object, pointPosition: number`*
+  
+This event is emited whenever a chat head got collapsed, it is just like the `chart_head.expanded` event and it also returns the SVG node of the expanded chart head, the data of the chart head and the point position, the point position is always `1` except for chart heads with double point positions, example.  
+  
+```ts
+const inst1 = new TreeSpider({
+    targetContainer: "#container-1"
+})
+
+inst1.addEventListener("chart_head.collapsed", (e) => {
+    console.log("Chat head expanded; data ", e.detail)
+})
+
+// OR
+// inst1.on("chart_head.collapsed", (e) => {
+//     console.log("Chat head expanded; data ", e.detail)
+// })
+```
+
+## zooming
+  
+- Data: *`e: ZoomBehavior`*
+  
+This event is emited when zooming, note that it is also emited when panning and even when performing automatic zooming and panning, it returns d3 zoom behavior, example:  
+  
+```ts
+const inst1 = new TreeSpider({
+    targetContainer: "#container-1"
+})
+
+inst1.addEventListener("zooming", (e) => {
+    console.log("Tree is zooming; data ", e.detail)
+})
+
+// OR
+// inst1.on("zooming", (e) => {
+//     cconsole.log("Tree is zooming; data ", e.detail)
+// })
+```

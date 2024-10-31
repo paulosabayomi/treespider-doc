@@ -1,0 +1,150 @@
+---
+sidebar_position: 9
+---
+
+import React from "react"
+import TreeSpider from 'treespider';
+
+# Methods
+
+The following methods can be used to interact with TreeSpider programmatically
+
+## initialize
+  
+- Params: *`none`*
+  
+If you want to manually initialize TreeSpider, set the `autoInitialize` option to `false` then programmatically call this method to manually initialize TreeSpider, example below:  
+  
+```ts
+const instance1 = new TreeSpider({
+    targetContainer: "#container-1",
+    autoInitialize: false
+})
+// ...
+
+document.querySelector("#random-btn").onclick = () => instance1.initialize()
+```
+
+Click on the button below to initialize TreeSpider
+
+export const TestTSpyder1 = React.memo(() => {
+    const treeSpiderRef = React.useRef()
+    const btnRef = React.useRef()
+
+    const initializeTS = React.useCallback(() => {
+        if (!treeSpiderRef.current) return;
+        treeSpiderRef.current.initialize()
+        btnRef.current.remove()
+    }, [treeSpiderRef.current, btnRef.current])
+
+    React.useLayoutEffect(() => {
+        treeSpiderRef.current = new TreeSpider({
+            targetContainer: "#test-cont-mt-3",
+            width: "100%",
+            random_data_length: 30,
+            autoInitialize: false
+        })
+    }, [])
+
+    return (
+        <>
+            <div id="test-cont-mt-3"></div>
+            <button ref={(e) => btnRef.current = e} onClick={initializeTS}>Click me to initialize TreeSpider</button>
+        </>
+    )
+})
+
+<TestTSpyder1 />
+  
+## resetZoom
+  
+- Params: *`none`*
+  
+Call this method to reset the zoom level to the default zoom level, and this will also recenter or re-place the root chart head back to the default position.
+
+## updateChartHeadBg
+  
+- Params: *`color: string`*
+  
+This method is for programmatically setting the background color of the chart heads, it takes in the color as the argument, the color can be in hex format or a color name or any other CSS formats, example below  
+  
+```ts
+const instance1 = new TreeSpider({
+    targetContainer: "#container-1"
+})
+
+// ...
+
+document.querySelector("#random-btn").onclick = () => instance1.updateChartHeadBg('black')
+```
+  
+## on
+  
+- Params: *`eventName: TEventType, callbackFn: (data?: any) => null`*
+  
+This method is a short form of the `addEventListener` method and it works exactly like it, it can be used to listen to events, to learn more about using events check the events page, example below:
+  
+```ts
+const instance1 = new TreeSpider({
+    targetContainer: "#container-1"
+})
+
+instance1.on("library.init", (e) => {
+    console.log("library has been initialized", e)
+})
+```
+  
+## setOptions
+  
+- Params: *`options_to_set: Omit<ITreeSpiderMain,'targetContainer'>`*
+  
+This option is for setting options that were not passed directly to the library and it will also override the options that were passed directly to the library, and it is recommended to call this method before initializing TreeSpider, and it is best to use this method when `autoInitialize` is set to `false` and when TreeSpider will be manually initialized, example below:  
+  
+```ts
+const instance1 = new TreeSpider({
+    targetContainer: "#container-1",
+    autoInitialize: false,
+})
+
+instance1.setOptions({
+    tree_data: [...]
+})
+
+document.querySelector("#random-btn").onclick = () => {
+    instance1.initialize()
+}
+```
+
+## zoom
+  
+- Params: *`dir: 'in' | 'out'`*
+  
+This option is for programmatically zooming in and out, it takes the direction of zoom either `in` or `out` as an argument.
+  
+::::note
+The rotation feature is only available for radial or circular trees and the following methods will not work for none radial trees.
+::::
+
+## startStopRotateCW
+  
+- Params: *`none`*
+  
+This method is for starting or stopping the chart rotation in the clockwise direction.
+
+## startStopRotateACW
+  
+- Params: *`none`*
+  
+This method is for starting or stopping the chart rotation in the anticlockwise direction.
+
+## rotateOnceCW
+  
+- Params: *`none`*
+  
+This method is for rotating the tree only once in the clockwise direction.
+
+## rotateOnceACW
+  
+- Params: *`none`*
+  
+This method is for rotating the tree only once in the anticlockwise direction.

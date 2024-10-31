@@ -1,0 +1,8 @@
+{
+  "label": "Frameworks",
+  "position": 11,
+  "link": {
+    "type": "generated-index",
+    "description": "The list of frameworks that TreeSpider can work with"
+  }
+}

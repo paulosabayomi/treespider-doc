@@ -61,7 +61,7 @@ In the simple diagram the **Junior Engineers** report to the **Senior Engineer**
 ]
 ```
 
-In the above data, notice the CEO doesn't have a `parentId` and the rest of the employees each have the `parentId` point to the id of the employee they report to, and also notice that all the junior engineers have a `parentId` set to the id of the **Senior Engineer** which they report to, this is a valid data that can be passed to TreeSpider, then TreeSpider will do the hard work of sorting, organizing and displaying the data with your choice of selected tree type.  
+In the above data, notice the CEO doesn't have a `parentId` and the rest of the employees each have the `parentId` which points to the id of the employee they report to, and also notice that all the junior engineers have a `parentId` set to the id of the **Senior Engineer** which they report to, this is a valid data that can be passed to TreeSpider, then TreeSpider will do the hard work of sorting, organizing and displaying the data with your choice of selected tree type.  
   
 Now passing the data, still using the example data above but adding `name` property to each employee
 
@@ -120,7 +120,7 @@ const instance1 = new TreeSpider({
 
 ```
 
-The above data will be rendered as, zoom in and out and pan to interact
+The above data will be rendered like the working example below, zoom in and out and pan to interact
 
 export const TestTSpyderTD = React.memo(() => {
     const employee_data = [

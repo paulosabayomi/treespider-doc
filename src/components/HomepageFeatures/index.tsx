@@ -1,28 +1,7 @@
-import clsx from 'clsx';
-import Heading from '@theme/Heading';
+import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 import React from 'react';
 import TreeSpider from 'treespider';
-
-type FeatureItem = {
-  title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
-  description: JSX.Element;
-};
-
-function Feature({title, Svg, description}: FeatureItem) {
-  return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
-    </div>
-  );
-}
 
 export default function HomepageFeatures(): JSX.Element {
 
@@ -74,7 +53,9 @@ export default function HomepageFeatures(): JSX.Element {
           <div className='sections-container last-container'>
             <div>And more</div>
             <div>
-              <button className='try-it-btn'>try it out</button>
+              <Link to={"/docs/intro"}>
+                <button className='try-it-btn' style={{cursor: "pointer"}}>try it out</button>
+              </Link>
             </div>
           </div>
 
