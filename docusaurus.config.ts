@@ -15,8 +15,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Abayomi Amusa', // Usually your GitHub org/user name.
-  projectName: 'treeSpider', // Usually your repo name.
+  organizationName: 'paulosabayomi', // Usually your GitHub org/user name.
+  projectName: 'treespider-doc', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

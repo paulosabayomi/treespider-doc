@@ -298,7 +298,35 @@ This option, which is `true` by default, displays the tree data in steps if the 
 - *optional*
 
 The steps to display trees, on initialization the number of the provided steps will be rendered, when a tree whose children are hidden by default is expanded its children will also be rendered in the number of the provided step.
-
+  
+## dropshadow
+  
+- Type: *`Object`*
+- Default: *`{
+            x: "-50%",
+            y: "-50%",
+            width: "200%",
+            height: "200%",
+            dx: 1,
+            dy: 1,
+            stdDeviation: 4,
+            floodColor: "rgba(91, 91, 91, 0.19)",
+        }`*
+- *optional*
+  
+The option to tune the chart head drop shadow filter, the drop shadow is an SVG feDropShadow filter, **Note:** this option is not applicable to the `rounded` chart head type because it doesn't have a drop shadow, more info on each properties below:
+  
+| Property | Type | Description |
+| ---- | ---- | ---- |
+| `x` | `string` | The x position on the x,y scale |
+| `y` | `string` | The y position on the x,y scale |
+| `width` | `string` | The width of the dropshadow box |
+| `height` | `string` | The height of the dropshadow box |
+| `dx` | `number` | This property defines the x offset of the drop shadow. |
+| `dy` | `number` | This property defines the y offset of the drop shadow. |
+| `stdDeviation` | `number` | This property defines the standard deviation for the blur operation in the drop shadow. |
+| `floodColor` | `string` | The color of the drop shadow |
+  
 ## pallet
 
 - Type: *`Object`*
@@ -549,4 +577,21 @@ The type for the list of available events.
   
 ```ts
 'chart_head.create' | 'chart_head.expanded' | 'chart_head.collapsed' | 'zooming' | 'library.init'
+```
+  
+### TDropShadow
+  
+The type of the chart heads drop shadow.  
+  
+```ts
+{
+    x: string;
+    y: string;
+    width: string;
+    height: string;
+    dx: number;
+    dy: number;
+    stdDeviation: number;
+    floodColor: string;
+}
 ```

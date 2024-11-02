@@ -7,7 +7,7 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
+    "deploy": "GIT_USER=paulosabayomi docusaurus deploy --skip-build",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
@@ -22,7 +22,7 @@
     "prism-react-renderer": "^2.3.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "treespider": "^0.0.2"
+    "treespider": "^1.0.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.5.2",
