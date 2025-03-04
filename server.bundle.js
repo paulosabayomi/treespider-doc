@@ -29,7 +29,7 @@ const frontMatter = {
 const contentTitle = 'TreeSpider Examples';
 const metadata = {
   "type": "mdx",
-  "permalink": "/examples",
+  "permalink": "/treespider-doc/examples",
   "source": "@site/src/pages/examples.mdx",
   "title": "TreeSpider Examples",
   "description": "Basic Example",
@@ -274,7 +274,7 @@ const metadata = {
   "source": "@site/docs/basic-usage.mdx",
   "sourceDirName": ".",
   "slug": "/basic-usage",
-  "permalink": "/docs/basic-usage",
+  "permalink": "/treespider-doc/docs/basic-usage",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/paulosabayomi/treespider-doc/tree/main/docs/basic-usage.mdx",
@@ -287,11 +287,11 @@ const metadata = {
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Installation",
-    "permalink": "/docs/installation"
+    "permalink": "/treespider-doc/docs/installation"
   },
   "next": {
     "title": "Tree Data",
-    "permalink": "/docs/tree-data"
+    "permalink": "/treespider-doc/docs/tree-data"
   }
 };
 const assets = {
@@ -663,7 +663,7 @@ const metadata = {
   "source": "@site/docs/chart-heads.mdx",
   "sourceDirName": ".",
   "slug": "/chart-heads",
-  "permalink": "/docs/chart-heads",
+  "permalink": "/treespider-doc/docs/chart-heads",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/paulosabayomi/treespider-doc/tree/main/docs/chart-heads.mdx",
@@ -676,11 +676,11 @@ const metadata = {
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Trees",
-    "permalink": "/docs/trees"
+    "permalink": "/treespider-doc/docs/trees"
   },
   "next": {
     "title": "Options",
-    "permalink": "/docs/options"
+    "permalink": "/treespider-doc/docs/options"
   }
 };
 const assets = {
@@ -863,7 +863,7 @@ const metadata = {
   "source": "@site/docs/colors.mdx",
   "sourceDirName": ".",
   "slug": "/colors",
-  "permalink": "/docs/colors",
+  "permalink": "/treespider-doc/docs/colors",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/paulosabayomi/treespider-doc/tree/main/docs/colors.mdx",
@@ -876,11 +876,11 @@ const metadata = {
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Options",
-    "permalink": "/docs/options"
+    "permalink": "/treespider-doc/docs/options"
   },
   "next": {
     "title": "Methods",
-    "permalink": "/docs/methods"
+    "permalink": "/treespider-doc/docs/methods"
   }
 };
 const assets = {
@@ -1039,7 +1039,7 @@ const metadata = {
   "source": "@site/docs/contributing.mdx",
   "sourceDirName": ".",
   "slug": "/contributing",
-  "permalink": "/docs/contributing",
+  "permalink": "/treespider-doc/docs/contributing",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/paulosabayomi/treespider-doc/tree/main/docs/contributing.mdx",
@@ -1052,7 +1052,7 @@ const metadata = {
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "React JS",
-    "permalink": "/docs/frameworks/react-js"
+    "permalink": "/treespider-doc/docs/frameworks/react-js"
   }
 };
 const assets = {
@@ -1236,7 +1236,7 @@ const metadata = {
   "source": "@site/docs/events.mdx",
   "sourceDirName": ".",
   "slug": "/events",
-  "permalink": "/docs/events",
+  "permalink": "/treespider-doc/docs/events",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/paulosabayomi/treespider-doc/tree/main/docs/events.mdx",
@@ -1249,11 +1249,11 @@ const metadata = {
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Methods",
-    "permalink": "/docs/methods"
+    "permalink": "/treespider-doc/docs/methods"
   },
   "next": {
     "title": "Frameworks",
-    "permalink": "/docs/category/frameworks"
+    "permalink": "/treespider-doc/docs/category/frameworks"
   }
 };
 const assets = {
@@ -1455,7 +1455,7 @@ const metadata = {
   "source": "@site/docs/frameworks/react-js.md",
   "sourceDirName": "frameworks",
   "slug": "/frameworks/react-js",
-  "permalink": "/docs/frameworks/react-js",
+  "permalink": "/treespider-doc/docs/frameworks/react-js",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/paulosabayomi/treespider-doc/tree/main/docs/frameworks/react-js.md",
@@ -1468,11 +1468,11 @@ const metadata = {
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Frameworks",
-    "permalink": "/docs/category/frameworks"
+    "permalink": "/treespider-doc/docs/category/frameworks"
   },
   "next": {
     "title": "Contributing",
-    "permalink": "/docs/contributing"
+    "permalink": "/treespider-doc/docs/contributing"
   }
 };
 const assets = {
@@ -1600,7 +1600,7 @@ const metadata = {
   "source": "@site/docs/installation.mdx",
   "sourceDirName": ".",
   "slug": "/installation",
-  "permalink": "/docs/installation",
+  "permalink": "/treespider-doc/docs/installation",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/paulosabayomi/treespider-doc/tree/main/docs/installation.mdx",
@@ -1613,11 +1613,11 @@ const metadata = {
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Introduction",
-    "permalink": "/docs/intro"
+    "permalink": "/treespider-doc/docs/intro"
   },
   "next": {
     "title": "Basic Usage",
-    "permalink": "/docs/basic-usage"
+    "permalink": "/treespider-doc/docs/basic-usage"
   }
 };
 const assets = {
@@ -1874,7 +1874,7 @@ const metadata = {
   "source": "@site/docs/intro.mdx",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/docs/intro",
+  "permalink": "/treespider-doc/docs/intro",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/paulosabayomi/treespider-doc/tree/main/docs/intro.mdx",
@@ -1887,7 +1887,7 @@ const metadata = {
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Installation",
-    "permalink": "/docs/installation"
+    "permalink": "/treespider-doc/docs/installation"
   }
 };
 const assets = {
@@ -1986,7 +1986,7 @@ const metadata = {
   "source": "@site/docs/methods.mdx",
   "sourceDirName": ".",
   "slug": "/methods",
-  "permalink": "/docs/methods",
+  "permalink": "/treespider-doc/docs/methods",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/paulosabayomi/treespider-doc/tree/main/docs/methods.mdx",
@@ -1999,11 +1999,11 @@ const metadata = {
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Colors",
-    "permalink": "/docs/colors"
+    "permalink": "/treespider-doc/docs/colors"
   },
   "next": {
     "title": "Events",
-    "permalink": "/docs/events"
+    "permalink": "/treespider-doc/docs/events"
   }
 };
 const assets = {
@@ -2325,7 +2325,7 @@ const metadata = {
   "source": "@site/docs/options.mdx",
   "sourceDirName": ".",
   "slug": "/options",
-  "permalink": "/docs/options",
+  "permalink": "/treespider-doc/docs/options",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/paulosabayomi/treespider-doc/tree/main/docs/options.mdx",
@@ -2338,11 +2338,11 @@ const metadata = {
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chart Heads",
-    "permalink": "/docs/chart-heads"
+    "permalink": "/treespider-doc/docs/chart-heads"
   },
   "next": {
     "title": "Colors",
-    "permalink": "/docs/colors"
+    "permalink": "/treespider-doc/docs/colors"
   }
 };
 const assets = {
@@ -4338,7 +4338,7 @@ const metadata = {
   "source": "@site/docs/tree-data.mdx",
   "sourceDirName": ".",
   "slug": "/tree-data",
-  "permalink": "/docs/tree-data",
+  "permalink": "/treespider-doc/docs/tree-data",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/paulosabayomi/treespider-doc/tree/main/docs/tree-data.mdx",
@@ -4351,11 +4351,11 @@ const metadata = {
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Basic Usage",
-    "permalink": "/docs/basic-usage"
+    "permalink": "/treespider-doc/docs/basic-usage"
   },
   "next": {
     "title": "Trees",
-    "permalink": "/docs/trees"
+    "permalink": "/treespider-doc/docs/trees"
   }
 };
 const assets = {
@@ -4717,7 +4717,7 @@ const metadata = {
   "source": "@site/docs/trees.mdx",
   "sourceDirName": ".",
   "slug": "/trees",
-  "permalink": "/docs/trees",
+  "permalink": "/treespider-doc/docs/trees",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/paulosabayomi/treespider-doc/tree/main/docs/trees.mdx",
@@ -4730,11 +4730,11 @@ const metadata = {
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Tree Data",
-    "permalink": "/docs/tree-data"
+    "permalink": "/treespider-doc/docs/tree-data"
   },
   "next": {
     "title": "Chart Heads",
-    "permalink": "/docs/chart-heads"
+    "permalink": "/treespider-doc/docs/chart-heads"
   }
 };
 const assets = {
@@ -5049,7 +5049,7 @@ const frontMatter = {
 };
 const contentTitle = undefined;
 const metadata = {
-  "permalink": "/blog/first-blog-post",
+  "permalink": "/treespider-doc/blog/first-blog-post",
   "editUrl": "https://github.com/paulosabayomi/treespider-doc/tree/main/blog/2019-05-28-first-blog-post.md",
   "source": "@site/blog/2019-05-28-first-blog-post.md",
   "title": "First Blog Post",
@@ -5059,13 +5059,13 @@ const metadata = {
     {
       "inline": false,
       "label": "Hola",
-      "permalink": "/blog/tags/hola",
+      "permalink": "/treespider-doc/blog/tags/hola",
       "description": "Hola tag description"
     },
     {
       "inline": false,
       "label": "Docusaurus",
-      "permalink": "/blog/tags/docusaurus",
+      "permalink": "/treespider-doc/blog/tags/docusaurus",
       "description": "Docusaurus tag description"
     }
   ],
@@ -5077,7 +5077,7 @@ const metadata = {
       "title": "Docusaurus maintainer",
       "url": "https://sebastienlorber.com",
       "page": {
-        "permalink": "/blog/authors/all-sebastien-lorber-articles"
+        "permalink": "/treespider-doc/blog/authors/all-sebastien-lorber-articles"
       },
       "socials": {
         "x": "https://x.com/sebastienlorber",
@@ -5093,7 +5093,7 @@ const metadata = {
       "title": "Front End Engineer @ Facebook",
       "url": "https://github.com/yangshun",
       "page": {
-        "permalink": "/blog/authors/yangshun"
+        "permalink": "/treespider-doc/blog/authors/yangshun"
       },
       "socials": {
         "x": "https://x.com/yangshunz",
@@ -5118,7 +5118,7 @@ const metadata = {
   "unlisted": false,
   "prevItem": {
     "title": "Long Blog Post",
-    "permalink": "/blog/long-blog-post"
+    "permalink": "/treespider-doc/blog/long-blog-post"
   }
 };
 const assets = {
@@ -5190,7 +5190,7 @@ const frontMatter = {
 };
 const contentTitle = undefined;
 const metadata = {
-  "permalink": "/blog/first-blog-post",
+  "permalink": "/treespider-doc/blog/first-blog-post",
   "editUrl": "https://github.com/paulosabayomi/treespider-doc/tree/main/blog/2019-05-28-first-blog-post.md",
   "source": "@site/blog/2019-05-28-first-blog-post.md",
   "title": "First Blog Post",
@@ -5200,13 +5200,13 @@ const metadata = {
     {
       "inline": false,
       "label": "Hola",
-      "permalink": "/blog/tags/hola",
+      "permalink": "/treespider-doc/blog/tags/hola",
       "description": "Hola tag description"
     },
     {
       "inline": false,
       "label": "Docusaurus",
-      "permalink": "/blog/tags/docusaurus",
+      "permalink": "/treespider-doc/blog/tags/docusaurus",
       "description": "Docusaurus tag description"
     }
   ],
@@ -5218,7 +5218,7 @@ const metadata = {
       "title": "Docusaurus maintainer",
       "url": "https://sebastienlorber.com",
       "page": {
-        "permalink": "/blog/authors/all-sebastien-lorber-articles"
+        "permalink": "/treespider-doc/blog/authors/all-sebastien-lorber-articles"
       },
       "socials": {
         "x": "https://x.com/sebastienlorber",
@@ -5234,7 +5234,7 @@ const metadata = {
       "title": "Front End Engineer @ Facebook",
       "url": "https://github.com/yangshun",
       "page": {
-        "permalink": "/blog/authors/yangshun"
+        "permalink": "/treespider-doc/blog/authors/yangshun"
       },
       "socials": {
         "x": "https://x.com/yangshunz",
@@ -5259,7 +5259,7 @@ const metadata = {
   "unlisted": false,
   "prevItem": {
     "title": "Long Blog Post",
-    "permalink": "/blog/long-blog-post"
+    "permalink": "/treespider-doc/blog/long-blog-post"
   }
 };
 const assets = {
@@ -5324,7 +5324,7 @@ const frontMatter = {
 };
 const contentTitle = undefined;
 const metadata = {
-  "permalink": "/blog/long-blog-post",
+  "permalink": "/treespider-doc/blog/long-blog-post",
   "editUrl": "https://github.com/paulosabayomi/treespider-doc/tree/main/blog/2019-05-29-long-blog-post.md",
   "source": "@site/blog/2019-05-29-long-blog-post.md",
   "title": "Long Blog Post",
@@ -5334,13 +5334,13 @@ const metadata = {
     {
       "inline": false,
       "label": "Hello",
-      "permalink": "/blog/tags/hello",
+      "permalink": "/treespider-doc/blog/tags/hello",
       "description": "Hello tag description"
     },
     {
       "inline": false,
       "label": "Docusaurus",
-      "permalink": "/blog/tags/docusaurus",
+      "permalink": "/treespider-doc/blog/tags/docusaurus",
       "description": "Docusaurus tag description"
     }
   ],
@@ -5352,7 +5352,7 @@ const metadata = {
       "title": "Front End Engineer @ Facebook",
       "url": "https://github.com/yangshun",
       "page": {
-        "permalink": "/blog/authors/yangshun"
+        "permalink": "/treespider-doc/blog/authors/yangshun"
       },
       "socials": {
         "x": "https://x.com/yangshunz",
@@ -5374,11 +5374,11 @@ const metadata = {
   "unlisted": false,
   "prevItem": {
     "title": "MDX Blog Post",
-    "permalink": "/blog/mdx-blog-post"
+    "permalink": "/treespider-doc/blog/mdx-blog-post"
   },
   "nextItem": {
     "title": "First Blog Post",
-    "permalink": "/blog/first-blog-post"
+    "permalink": "/treespider-doc/blog/first-blog-post"
   }
 };
 const assets = {
@@ -5486,7 +5486,7 @@ const frontMatter = {
 };
 const contentTitle = undefined;
 const metadata = {
-  "permalink": "/blog/long-blog-post",
+  "permalink": "/treespider-doc/blog/long-blog-post",
   "editUrl": "https://github.com/paulosabayomi/treespider-doc/tree/main/blog/2019-05-29-long-blog-post.md",
   "source": "@site/blog/2019-05-29-long-blog-post.md",
   "title": "Long Blog Post",
@@ -5496,13 +5496,13 @@ const metadata = {
     {
       "inline": false,
       "label": "Hello",
-      "permalink": "/blog/tags/hello",
+      "permalink": "/treespider-doc/blog/tags/hello",
       "description": "Hello tag description"
     },
     {
       "inline": false,
       "label": "Docusaurus",
-      "permalink": "/blog/tags/docusaurus",
+      "permalink": "/treespider-doc/blog/tags/docusaurus",
       "description": "Docusaurus tag description"
     }
   ],
@@ -5514,7 +5514,7 @@ const metadata = {
       "title": "Front End Engineer @ Facebook",
       "url": "https://github.com/yangshun",
       "page": {
-        "permalink": "/blog/authors/yangshun"
+        "permalink": "/treespider-doc/blog/authors/yangshun"
       },
       "socials": {
         "x": "https://x.com/yangshunz",
@@ -5536,11 +5536,11 @@ const metadata = {
   "unlisted": false,
   "prevItem": {
     "title": "MDX Blog Post",
-    "permalink": "/blog/mdx-blog-post"
+    "permalink": "/treespider-doc/blog/mdx-blog-post"
   },
   "nextItem": {
     "title": "First Blog Post",
-    "permalink": "/blog/first-blog-post"
+    "permalink": "/treespider-doc/blog/first-blog-post"
   }
 };
 const assets = {
@@ -5617,7 +5617,7 @@ const frontMatter = {
 };
 const contentTitle = undefined;
 const metadata = {
-  "permalink": "/blog/mdx-blog-post",
+  "permalink": "/treespider-doc/blog/mdx-blog-post",
   "editUrl": "https://github.com/paulosabayomi/treespider-doc/tree/main/blog/2021-08-01-mdx-blog-post.mdx",
   "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
   "title": "MDX Blog Post",
@@ -5627,7 +5627,7 @@ const metadata = {
     {
       "inline": false,
       "label": "Docusaurus",
-      "permalink": "/blog/tags/docusaurus",
+      "permalink": "/treespider-doc/blog/tags/docusaurus",
       "description": "Docusaurus tag description"
     }
   ],
@@ -5639,7 +5639,7 @@ const metadata = {
       "title": "Docusaurus maintainer",
       "url": "https://sebastienlorber.com",
       "page": {
-        "permalink": "/blog/authors/all-sebastien-lorber-articles"
+        "permalink": "/treespider-doc/blog/authors/all-sebastien-lorber-articles"
       },
       "socials": {
         "x": "https://x.com/sebastienlorber",
@@ -5664,11 +5664,11 @@ const metadata = {
   "unlisted": false,
   "prevItem": {
     "title": "Welcome",
-    "permalink": "/blog/welcome"
+    "permalink": "/treespider-doc/blog/welcome"
   },
   "nextItem": {
     "title": "Long Blog Post",
-    "permalink": "/blog/long-blog-post"
+    "permalink": "/treespider-doc/blog/long-blog-post"
   }
 };
 const assets = {
@@ -5762,7 +5762,7 @@ const frontMatter = {
 };
 const contentTitle = undefined;
 const metadata = {
-  "permalink": "/blog/mdx-blog-post",
+  "permalink": "/treespider-doc/blog/mdx-blog-post",
   "editUrl": "https://github.com/paulosabayomi/treespider-doc/tree/main/blog/2021-08-01-mdx-blog-post.mdx",
   "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
   "title": "MDX Blog Post",
@@ -5772,7 +5772,7 @@ const metadata = {
     {
       "inline": false,
       "label": "Docusaurus",
-      "permalink": "/blog/tags/docusaurus",
+      "permalink": "/treespider-doc/blog/tags/docusaurus",
       "description": "Docusaurus tag description"
     }
   ],
@@ -5784,7 +5784,7 @@ const metadata = {
       "title": "Docusaurus maintainer",
       "url": "https://sebastienlorber.com",
       "page": {
-        "permalink": "/blog/authors/all-sebastien-lorber-articles"
+        "permalink": "/treespider-doc/blog/authors/all-sebastien-lorber-articles"
       },
       "socials": {
         "x": "https://x.com/sebastienlorber",
@@ -5809,11 +5809,11 @@ const metadata = {
   "unlisted": false,
   "prevItem": {
     "title": "Welcome",
-    "permalink": "/blog/welcome"
+    "permalink": "/treespider-doc/blog/welcome"
   },
   "nextItem": {
     "title": "Long Blog Post",
-    "permalink": "/blog/long-blog-post"
+    "permalink": "/treespider-doc/blog/long-blog-post"
   }
 };
 const assets = {
@@ -5897,7 +5897,7 @@ const frontMatter = {
 };
 const contentTitle = undefined;
 const metadata = {
-  "permalink": "/blog/welcome",
+  "permalink": "/treespider-doc/blog/welcome",
   "editUrl": "https://github.com/paulosabayomi/treespider-doc/tree/main/blog/2021-08-26-welcome/index.md",
   "source": "@site/blog/2021-08-26-welcome/index.md",
   "title": "Welcome",
@@ -5907,19 +5907,19 @@ const metadata = {
     {
       "inline": false,
       "label": "Facebook",
-      "permalink": "/blog/tags/facebook",
+      "permalink": "/treespider-doc/blog/tags/facebook",
       "description": "Facebook tag description"
     },
     {
       "inline": false,
       "label": "Hello",
-      "permalink": "/blog/tags/hello",
+      "permalink": "/treespider-doc/blog/tags/hello",
       "description": "Hello tag description"
     },
     {
       "inline": false,
       "label": "Docusaurus",
-      "permalink": "/blog/tags/docusaurus",
+      "permalink": "/treespider-doc/blog/tags/docusaurus",
       "description": "Docusaurus tag description"
     }
   ],
@@ -5931,7 +5931,7 @@ const metadata = {
       "title": "Docusaurus maintainer",
       "url": "https://sebastienlorber.com",
       "page": {
-        "permalink": "/blog/authors/all-sebastien-lorber-articles"
+        "permalink": "/treespider-doc/blog/authors/all-sebastien-lorber-articles"
       },
       "socials": {
         "x": "https://x.com/sebastienlorber",
@@ -5947,7 +5947,7 @@ const metadata = {
       "title": "Front End Engineer @ Facebook",
       "url": "https://github.com/yangshun",
       "page": {
-        "permalink": "/blog/authors/yangshun"
+        "permalink": "/treespider-doc/blog/authors/yangshun"
       },
       "socials": {
         "x": "https://x.com/yangshunz",
@@ -5973,7 +5973,7 @@ const metadata = {
   "unlisted": false,
   "nextItem": {
     "title": "MDX Blog Post",
-    "permalink": "/blog/mdx-blog-post"
+    "permalink": "/treespider-doc/blog/mdx-blog-post"
   }
 };
 const assets = {
@@ -6095,7 +6095,7 @@ const frontMatter = {
 };
 const contentTitle = undefined;
 const metadata = {
-  "permalink": "/blog/welcome",
+  "permalink": "/treespider-doc/blog/welcome",
   "editUrl": "https://github.com/paulosabayomi/treespider-doc/tree/main/blog/2021-08-26-welcome/index.md",
   "source": "@site/blog/2021-08-26-welcome/index.md",
   "title": "Welcome",
@@ -6105,19 +6105,19 @@ const metadata = {
     {
       "inline": false,
       "label": "Facebook",
-      "permalink": "/blog/tags/facebook",
+      "permalink": "/treespider-doc/blog/tags/facebook",
       "description": "Facebook tag description"
     },
     {
       "inline": false,
       "label": "Hello",
-      "permalink": "/blog/tags/hello",
+      "permalink": "/treespider-doc/blog/tags/hello",
       "description": "Hello tag description"
     },
     {
       "inline": false,
       "label": "Docusaurus",
-      "permalink": "/blog/tags/docusaurus",
+      "permalink": "/treespider-doc/blog/tags/docusaurus",
       "description": "Docusaurus tag description"
     }
   ],
@@ -6129,7 +6129,7 @@ const metadata = {
       "title": "Docusaurus maintainer",
       "url": "https://sebastienlorber.com",
       "page": {
-        "permalink": "/blog/authors/all-sebastien-lorber-articles"
+        "permalink": "/treespider-doc/blog/authors/all-sebastien-lorber-articles"
       },
       "socials": {
         "x": "https://x.com/sebastienlorber",
@@ -6145,7 +6145,7 @@ const metadata = {
       "title": "Front End Engineer @ Facebook",
       "url": "https://github.com/yangshun",
       "page": {
-        "permalink": "/blog/authors/yangshun"
+        "permalink": "/treespider-doc/blog/authors/yangshun"
       },
       "socials": {
         "x": "https://x.com/yangshunz",
@@ -6171,7 +6171,7 @@ const metadata = {
   "unlisted": false,
   "nextItem": {
     "title": "MDX Blog Post",
-    "permalink": "/blog/mdx-blog-post"
+    "permalink": "/treespider-doc/blog/mdx-blog-post"
   }
 };
 const assets = {
@@ -6274,9 +6274,9 @@ function _interopRequireWildcard(e, r) {
 var lib = __webpack_require__(3259);
 var lib_default = /*#__PURE__*/__webpack_require__.n(lib);
 ;// ./.docusaurus/routesChunkNames.json
-const routesChunkNames_namespaceObject = /*#__PURE__*/JSON.parse('{"/blog-b2f":{"__comp":"a6aa9e1f","__context":{"plugin":"36994c47"},"sidebar":"814f3328","items":[{"content":"7661071f"},{"content":"f4f34a3a"},{"content":"8717b14a"},{"content":"925b3f96"}],"__props":"c15d9823"},"/blog/archive-182":{"__comp":"9e4087bc","__context":{"plugin":"36994c47"},"__props":"f81c1134"},"/blog/authors-0b7":{"__comp":"621db11d","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"sidebar":"814f3328","__props":"ef8b811a"},"/blog/authors/all-sebastien-lorber-articles-4a1":{"__comp":"33fc5bb8","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"items":[{"content":"7661071f"},{"content":"f4f34a3a"},{"content":"925b3f96"}],"sidebar":"814f3328","__props":"c9c9bef8"},"/blog/authors/yangshun-a68":{"__comp":"33fc5bb8","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"items":[{"content":"7661071f"},{"content":"8717b14a"},{"content":"925b3f96"}],"sidebar":"814f3328","__props":"1dea6ca3"},"/blog/first-blog-post-89a":{"__comp":"ccc49370","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"sidebar":"814f3328","content":"e273c56f"},"/blog/long-blog-post-9ad":{"__comp":"ccc49370","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"sidebar":"814f3328","content":"73664a40"},"/blog/mdx-blog-post-e9f":{"__comp":"ccc49370","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"sidebar":"814f3328","content":"59362658"},"/blog/tags-287":{"__comp":"01a85c17","__context":{"plugin":"36994c47"},"sidebar":"814f3328","__props":"3a2db09e"},"/blog/tags/docusaurus-704":{"__comp":"6875c492","__context":{"plugin":"36994c47"},"sidebar":"814f3328","items":[{"content":"7661071f"},{"content":"f4f34a3a"},{"content":"8717b14a"},{"content":"925b3f96"}],"__props":"3217192f"},"/blog/tags/facebook-858":{"__comp":"6875c492","__context":{"plugin":"36994c47"},"sidebar":"814f3328","items":[{"content":"7661071f"}],"__props":"e5aefb32"},"/blog/tags/hello-299":{"__comp":"6875c492","__context":{"plugin":"36994c47"},"sidebar":"814f3328","items":[{"content":"7661071f"},{"content":"8717b14a"}],"__props":"f82cd581"},"/blog/tags/hola-00d":{"__comp":"6875c492","__context":{"plugin":"36994c47"},"sidebar":"814f3328","items":[{"content":"925b3f96"}],"__props":"5e90a9b3"},"/blog/welcome-d2b":{"__comp":"ccc49370","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"sidebar":"814f3328","content":"d9f32620"},"/examples-2c4":{"__comp":"1f391b9e","__context":{"plugin":"a7456010"},"content":"730f34f0"},"/docs-937":{"__comp":"5e95c892","__context":{"plugin":"aba21aa0"}},"/docs-b26":{"__comp":"a7bd4aaa","__props":"0058b4c6"},"/docs-e7c":{"__comp":"a94703ab"},"/docs/basic-usage-d84":{"__comp":"17896441","content":"1ff56eb1"},"/docs/category/frameworks-080":{"__comp":"14eb3368","__props":"72791873"},"/docs/chart-heads-5f9":{"__comp":"17896441","content":"c428a0e3"},"/docs/colors-425":{"__comp":"17896441","content":"573d089f"},"/docs/contributing-2a4":{"__comp":"17896441","content":"72a427b3"},"/docs/events-b92":{"__comp":"17896441","content":"3ee9ac3f"},"/docs/frameworks/react-js-cbb":{"__comp":"17896441","content":"c5727223"},"/docs/installation-08e":{"__comp":"17896441","content":"fa4d91bf"},"/docs/intro-89a":{"__comp":"17896441","content":"f8409a7e"},"/docs/methods-8ba":{"__comp":"17896441","content":"c95e31df"},"/docs/options-e49":{"__comp":"17896441","content":"0f2c6659"},"/docs/tree-data-959":{"__comp":"17896441","content":"86752f55"},"/docs/trees-0b7":{"__comp":"17896441","content":"9dcc72b5"},"/-e5f":{"__comp":"1df93b7f","__context":{"plugin":"a7456010"},"config":"5e9f5e1a"}}');
+const routesChunkNames_namespaceObject = /*#__PURE__*/JSON.parse('{"/treespider-doc/blog-649":{"__comp":"a6aa9e1f","__context":{"plugin":"36994c47"},"sidebar":"814f3328","items":[{"content":"7661071f"},{"content":"f4f34a3a"},{"content":"8717b14a"},{"content":"925b3f96"}],"__props":"cfa82481"},"/treespider-doc/blog/archive-11c":{"__comp":"9e4087bc","__context":{"plugin":"36994c47"},"__props":"568912a8"},"/treespider-doc/blog/authors-574":{"__comp":"621db11d","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"sidebar":"814f3328","__props":"8ac8e985"},"/treespider-doc/blog/authors/all-sebastien-lorber-articles-8b3":{"__comp":"33fc5bb8","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"items":[{"content":"7661071f"},{"content":"f4f34a3a"},{"content":"925b3f96"}],"sidebar":"814f3328","__props":"c9c61e5e"},"/treespider-doc/blog/authors/yangshun-c3e":{"__comp":"33fc5bb8","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"items":[{"content":"7661071f"},{"content":"8717b14a"},{"content":"925b3f96"}],"sidebar":"814f3328","__props":"1b636673"},"/treespider-doc/blog/first-blog-post-ed5":{"__comp":"ccc49370","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"sidebar":"814f3328","content":"e273c56f"},"/treespider-doc/blog/long-blog-post-3c6":{"__comp":"ccc49370","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"sidebar":"814f3328","content":"73664a40"},"/treespider-doc/blog/mdx-blog-post-a51":{"__comp":"ccc49370","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"sidebar":"814f3328","content":"59362658"},"/treespider-doc/blog/tags-464":{"__comp":"01a85c17","__context":{"plugin":"36994c47"},"sidebar":"814f3328","__props":"04aab599"},"/treespider-doc/blog/tags/docusaurus-52d":{"__comp":"6875c492","__context":{"plugin":"36994c47"},"sidebar":"814f3328","items":[{"content":"7661071f"},{"content":"f4f34a3a"},{"content":"8717b14a"},{"content":"925b3f96"}],"__props":"29ba6303"},"/treespider-doc/blog/tags/facebook-3be":{"__comp":"6875c492","__context":{"plugin":"36994c47"},"sidebar":"814f3328","items":[{"content":"7661071f"}],"__props":"a6cd1cb2"},"/treespider-doc/blog/tags/hello-648":{"__comp":"6875c492","__context":{"plugin":"36994c47"},"sidebar":"814f3328","items":[{"content":"7661071f"},{"content":"8717b14a"}],"__props":"8da59151"},"/treespider-doc/blog/tags/hola-7d9":{"__comp":"6875c492","__context":{"plugin":"36994c47"},"sidebar":"814f3328","items":[{"content":"925b3f96"}],"__props":"16517f91"},"/treespider-doc/blog/welcome-cdb":{"__comp":"ccc49370","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"sidebar":"814f3328","content":"d9f32620"},"/treespider-doc/examples-7bd":{"__comp":"1f391b9e","__context":{"plugin":"a7456010"},"content":"730f34f0"},"/treespider-doc/docs-9fd":{"__comp":"5e95c892","__context":{"plugin":"aba21aa0"}},"/treespider-doc/docs-0bb":{"__comp":"a7bd4aaa","__props":"79a1ea5c"},"/treespider-doc/docs-5a5":{"__comp":"a94703ab"},"/treespider-doc/docs/basic-usage-3f1":{"__comp":"17896441","content":"1ff56eb1"},"/treespider-doc/docs/category/frameworks-7cf":{"__comp":"14eb3368","__props":"245ef8eb"},"/treespider-doc/docs/chart-heads-e83":{"__comp":"17896441","content":"c428a0e3"},"/treespider-doc/docs/colors-213":{"__comp":"17896441","content":"573d089f"},"/treespider-doc/docs/contributing-58c":{"__comp":"17896441","content":"72a427b3"},"/treespider-doc/docs/events-533":{"__comp":"17896441","content":"3ee9ac3f"},"/treespider-doc/docs/frameworks/react-js-7bb":{"__comp":"17896441","content":"c5727223"},"/treespider-doc/docs/installation-c63":{"__comp":"17896441","content":"fa4d91bf"},"/treespider-doc/docs/intro-7a3":{"__comp":"17896441","content":"f8409a7e"},"/treespider-doc/docs/methods-494":{"__comp":"17896441","content":"c95e31df"},"/treespider-doc/docs/options-e9d":{"__comp":"17896441","content":"0f2c6659"},"/treespider-doc/docs/tree-data-873":{"__comp":"17896441","content":"86752f55"},"/treespider-doc/docs/trees-2e4":{"__comp":"17896441","content":"9dcc72b5"},"/treespider-doc/-e31":{"__comp":"1df93b7f","__context":{"plugin":"a7456010"},"config":"5e9f5e1a"}}');
 ;// ./.docusaurus/registry.js
-/* harmony default export */ const registry = ({"0058b4c6":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(6164))),"@generated/docusaurus-plugin-content-docs/default/p/docs-175.json",/*require.resolve*/(6164)],"01a85c17":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(5068))),"@theme/BlogTagsListPage",/*require.resolve*/(5068)],"0f2c6659":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(4269))),"@site/docs/options.mdx",/*require.resolve*/(4269)],"14eb3368":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(8367))),"@theme/DocCategoryGeneratedIndexPage",/*require.resolve*/(8367)],"17896441":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(1123))),"@theme/DocItem",/*require.resolve*/(1123)],"1dea6ca3":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(6067))),"@generated/docusaurus-plugin-content-blog/default/p/blog-authors-yangshun-af2.json",/*require.resolve*/(6067)],"1df93b7f":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(8431))),"@site/src/pages/index.tsx",/*require.resolve*/(8431)],"1f391b9e":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(4250))),"@theme/MDXPage",/*require.resolve*/(4250)],"1ff56eb1":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(1659))),"@site/docs/basic-usage.mdx",/*require.resolve*/(1659)],"3217192f":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(8174))),"@generated/docusaurus-plugin-content-blog/default/p/blog-tags-docusaurus-f20.json",/*require.resolve*/(8174)],"33fc5bb8":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(778))),"@theme/Blog/Pages/BlogAuthorsPostsPage",/*require.resolve*/(778)],"36994c47":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(5516))),"@generated/docusaurus-plugin-content-blog/default/__plugin.json",/*require.resolve*/(5516)],"3a2db09e":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(8070))),"@generated/docusaurus-plugin-content-blog/default/p/blog-tags-df9.json",/*require.resolve*/(8070)],"3ee9ac3f":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(7928))),"@site/docs/events.mdx",/*require.resolve*/(7928)],"573d089f":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(9523))),"@site/docs/colors.mdx",/*require.resolve*/(9523)],"59362658":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(1180))),"@site/blog/2021-08-01-mdx-blog-post.mdx",/*require.resolve*/(1180)],"5e90a9b3":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(7134))),"@generated/docusaurus-plugin-content-blog/default/p/blog-tags-hola-73f.json",/*require.resolve*/(7134)],"5e95c892":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(7121))),"@theme/DocsRoot",/*require.resolve*/(7121)],"5e9f5e1a":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(4784))),"@generated/docusaurus.config",/*require.resolve*/(4784)],"621db11d":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(5613))),"@theme/Blog/Pages/BlogAuthorsListPage",/*require.resolve*/(5613)],"6875c492":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(3069))),"@theme/BlogTagsPostsPage",/*require.resolve*/(3069)],"72791873":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(4916))),"@generated/docusaurus-plugin-content-docs/default/p/docs-category-frameworks-fae.json",/*require.resolve*/(4916)],"72a427b3":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(5451))),"@site/docs/contributing.mdx",/*require.resolve*/(5451)],"730f34f0":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(6377))),"@site/src/pages/examples.mdx",/*require.resolve*/(6377)],"73664a40":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(9581))),"@site/blog/2019-05-29-long-blog-post.md",/*require.resolve*/(9581)],"7661071f":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(4137))),"@site/blog/2021-08-26-welcome/index.md?truncated=true",/*require.resolve*/(4137)],"814f3328":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(5513))),"~blog/default/blog-post-list-prop-default.json",/*require.resolve*/(5513)],"86752f55":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(9726))),"@site/docs/tree-data.mdx",/*require.resolve*/(9726)],"8717b14a":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(1615))),"@site/blog/2019-05-29-long-blog-post.md?truncated=true",/*require.resolve*/(1615)],"925b3f96":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(5026))),"@site/blog/2019-05-28-first-blog-post.md?truncated=true",/*require.resolve*/(5026)],"9dcc72b5":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(1715))),"@site/docs/trees.mdx",/*require.resolve*/(1715)],"9e4087bc":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(9331))),"@theme/BlogArchivePage",/*require.resolve*/(9331)],"a6aa9e1f":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(5124))),"@theme/BlogListPage",/*require.resolve*/(5124)],"a7456010":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(8552))),"@generated/docusaurus-plugin-content-pages/default/__plugin.json",/*require.resolve*/(8552)],"a7bd4aaa":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(1723))),"@theme/DocVersionRoot",/*require.resolve*/(1723)],"a94703ab":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(8319))),"@theme/DocRoot",/*require.resolve*/(8319)],"aba21aa0":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(7093))),"@generated/docusaurus-plugin-content-docs/default/__plugin.json",/*require.resolve*/(7093)],"acecf23e":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(1912))),"~blog/default/blogMetadata-default.json",/*require.resolve*/(1912)],"c15d9823":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(9328))),"@generated/docusaurus-plugin-content-blog/default/p/blog-bd9.json",/*require.resolve*/(9328)],"c428a0e3":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(6929))),"@site/docs/chart-heads.mdx",/*require.resolve*/(6929)],"c5727223":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(9074))),"@site/docs/frameworks/react-js.md",/*require.resolve*/(9074)],"c95e31df":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(2781))),"@site/docs/methods.mdx",/*require.resolve*/(2781)],"c9c9bef8":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(4971))),"@generated/docusaurus-plugin-content-blog/default/p/blog-authors-all-sebastien-lorber-articles-6eb.json",/*require.resolve*/(4971)],"ccc49370":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(3858))),"@theme/BlogPostPage",/*require.resolve*/(3858)],"d9f32620":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(7447))),"@site/blog/2021-08-26-welcome/index.md",/*require.resolve*/(7447)],"e273c56f":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(4014))),"@site/blog/2019-05-28-first-blog-post.md",/*require.resolve*/(4014)],"e5aefb32":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(8539))),"@generated/docusaurus-plugin-content-blog/default/p/blog-tags-facebook-f47.json",/*require.resolve*/(8539)],"ef8b811a":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(6600))),"@generated/docusaurus-plugin-content-blog/default/p/blog-authors-790.json",/*require.resolve*/(6600)],"f4f34a3a":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(5512))),"@site/blog/2021-08-01-mdx-blog-post.mdx?truncated=true",/*require.resolve*/(5512)],"f81c1134":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(7735))),"@generated/docusaurus-plugin-content-blog/default/p/blog-archive-f05.json",/*require.resolve*/(7735)],"f82cd581":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(4035))),"@generated/docusaurus-plugin-content-blog/default/p/blog-tags-hello-f96.json",/*require.resolve*/(4035)],"f8409a7e":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(4505))),"@site/docs/intro.mdx",/*require.resolve*/(4505)],"fa4d91bf":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(2655))),"@site/docs/installation.mdx",/*require.resolve*/(2655)]});
+/* harmony default export */ const registry = ({"01a85c17":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(5068))),"@theme/BlogTagsListPage",/*require.resolve*/(5068)],"04aab599":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(9292))),"@generated/docusaurus-plugin-content-blog/default/p/treespider-doc-blog-tags-f9a.json",/*require.resolve*/(9292)],"0f2c6659":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(4269))),"@site/docs/options.mdx",/*require.resolve*/(4269)],"14eb3368":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(8367))),"@theme/DocCategoryGeneratedIndexPage",/*require.resolve*/(8367)],"16517f91":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(1151))),"@generated/docusaurus-plugin-content-blog/default/p/treespider-doc-blog-tags-hola-6f0.json",/*require.resolve*/(1151)],"17896441":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(1123))),"@theme/DocItem",/*require.resolve*/(1123)],"1b636673":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(329))),"@generated/docusaurus-plugin-content-blog/default/p/treespider-doc-blog-authors-yangshun-a0c.json",/*require.resolve*/(329)],"1df93b7f":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(8431))),"@site/src/pages/index.tsx",/*require.resolve*/(8431)],"1f391b9e":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(4250))),"@theme/MDXPage",/*require.resolve*/(4250)],"1ff56eb1":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(1659))),"@site/docs/basic-usage.mdx",/*require.resolve*/(1659)],"245ef8eb":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(8740))),"@generated/docusaurus-plugin-content-docs/default/p/treespider-doc-docs-category-frameworks-ec1.json",/*require.resolve*/(8740)],"29ba6303":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(6431))),"@generated/docusaurus-plugin-content-blog/default/p/treespider-doc-blog-tags-docusaurus-457.json",/*require.resolve*/(6431)],"33fc5bb8":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(778))),"@theme/Blog/Pages/BlogAuthorsPostsPage",/*require.resolve*/(778)],"36994c47":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(5516))),"@generated/docusaurus-plugin-content-blog/default/__plugin.json",/*require.resolve*/(5516)],"3ee9ac3f":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(7928))),"@site/docs/events.mdx",/*require.resolve*/(7928)],"568912a8":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(7715))),"@generated/docusaurus-plugin-content-blog/default/p/treespider-doc-blog-archive-549.json",/*require.resolve*/(7715)],"573d089f":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(9523))),"@site/docs/colors.mdx",/*require.resolve*/(9523)],"59362658":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(1180))),"@site/blog/2021-08-01-mdx-blog-post.mdx",/*require.resolve*/(1180)],"5e95c892":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(7121))),"@theme/DocsRoot",/*require.resolve*/(7121)],"5e9f5e1a":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(4784))),"@generated/docusaurus.config",/*require.resolve*/(4784)],"621db11d":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(5613))),"@theme/Blog/Pages/BlogAuthorsListPage",/*require.resolve*/(5613)],"6875c492":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(3069))),"@theme/BlogTagsPostsPage",/*require.resolve*/(3069)],"72a427b3":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(5451))),"@site/docs/contributing.mdx",/*require.resolve*/(5451)],"730f34f0":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(6377))),"@site/src/pages/examples.mdx",/*require.resolve*/(6377)],"73664a40":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(9581))),"@site/blog/2019-05-29-long-blog-post.md",/*require.resolve*/(9581)],"7661071f":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(4137))),"@site/blog/2021-08-26-welcome/index.md?truncated=true",/*require.resolve*/(4137)],"79a1ea5c":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(7881))),"@generated/docusaurus-plugin-content-docs/default/p/treespider-doc-docs-e28.json",/*require.resolve*/(7881)],"814f3328":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(5513))),"~blog/default/blog-post-list-prop-default.json",/*require.resolve*/(5513)],"86752f55":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(9726))),"@site/docs/tree-data.mdx",/*require.resolve*/(9726)],"8717b14a":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(1615))),"@site/blog/2019-05-29-long-blog-post.md?truncated=true",/*require.resolve*/(1615)],"8ac8e985":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(1259))),"@generated/docusaurus-plugin-content-blog/default/p/treespider-doc-blog-authors-987.json",/*require.resolve*/(1259)],"8da59151":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(3230))),"@generated/docusaurus-plugin-content-blog/default/p/treespider-doc-blog-tags-hello-d89.json",/*require.resolve*/(3230)],"925b3f96":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(5026))),"@site/blog/2019-05-28-first-blog-post.md?truncated=true",/*require.resolve*/(5026)],"9dcc72b5":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(1715))),"@site/docs/trees.mdx",/*require.resolve*/(1715)],"9e4087bc":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(9331))),"@theme/BlogArchivePage",/*require.resolve*/(9331)],"a6aa9e1f":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(5124))),"@theme/BlogListPage",/*require.resolve*/(5124)],"a6cd1cb2":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(4076))),"@generated/docusaurus-plugin-content-blog/default/p/treespider-doc-blog-tags-facebook-af8.json",/*require.resolve*/(4076)],"a7456010":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(8552))),"@generated/docusaurus-plugin-content-pages/default/__plugin.json",/*require.resolve*/(8552)],"a7bd4aaa":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(1723))),"@theme/DocVersionRoot",/*require.resolve*/(1723)],"a94703ab":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(8319))),"@theme/DocRoot",/*require.resolve*/(8319)],"aba21aa0":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(7093))),"@generated/docusaurus-plugin-content-docs/default/__plugin.json",/*require.resolve*/(7093)],"acecf23e":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(1912))),"~blog/default/blogMetadata-default.json",/*require.resolve*/(1912)],"c428a0e3":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(6929))),"@site/docs/chart-heads.mdx",/*require.resolve*/(6929)],"c5727223":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(9074))),"@site/docs/frameworks/react-js.md",/*require.resolve*/(9074)],"c95e31df":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(2781))),"@site/docs/methods.mdx",/*require.resolve*/(2781)],"c9c61e5e":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(3890))),"@generated/docusaurus-plugin-content-blog/default/p/treespider-doc-blog-authors-all-sebastien-lorber-articles-ba2.json",/*require.resolve*/(3890)],"ccc49370":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(3858))),"@theme/BlogPostPage",/*require.resolve*/(3858)],"cfa82481":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(4580))),"@generated/docusaurus-plugin-content-blog/default/p/treespider-doc-blog-de7.json",/*require.resolve*/(4580)],"d9f32620":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(7447))),"@site/blog/2021-08-26-welcome/index.md",/*require.resolve*/(7447)],"e273c56f":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(4014))),"@site/blog/2019-05-28-first-blog-post.md",/*require.resolve*/(4014)],"f4f34a3a":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(5512))),"@site/blog/2021-08-01-mdx-blog-post.mdx?truncated=true",/*require.resolve*/(5512)],"f8409a7e":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(4505))),"@site/docs/intro.mdx",/*require.resolve*/(4505)],"fa4d91bf":[()=>Promise.resolve().then(()=>_interopRequireWildcard(__webpack_require__(2655))),"@site/docs/installation.mdx",/*require.resolve*/(2655)]});
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(4848);
 ;// ./node_modules/@docusaurus/core/lib/client/theme-fallback/Loading/index.js
@@ -6340,7 +6340,7 @@ if(typeof chunk==='object'||typeof chunk==='function'){Object.keys(loadedModule)
 let val=loadedModules;const keyPaths=keyPath.split('.');keyPaths.slice(0,-1).forEach(k=>{val=val[k];});val[keyPaths[keyPaths.length-1]]=chunk;});/* eslint-disable no-underscore-dangle */const Component=loadedModules.__comp;delete loadedModules.__comp;const routeContext=loadedModules.__context;delete loadedModules.__context;const routeProps=loadedModules.__props;delete loadedModules.__props;/* eslint-enable no-underscore-dangle */// Is there any way to put this RouteContextProvider upper in the tree?
 return/*#__PURE__*/(0,jsx_runtime.jsx)(client_routeContext/* RouteContextProvider */.W,{value:routeContext,children:/*#__PURE__*/(0,jsx_runtime.jsx)(Component,{...loadedModules,...routeProps,...props})});}});}
 ;// ./.docusaurus/routes.js
-/* harmony default export */ const routes = ([{path:'/blog',component:ComponentCreator('/blog','b2f'),exact:true},{path:'/blog/archive',component:ComponentCreator('/blog/archive','182'),exact:true},{path:'/blog/authors',component:ComponentCreator('/blog/authors','0b7'),exact:true},{path:'/blog/authors/all-sebastien-lorber-articles',component:ComponentCreator('/blog/authors/all-sebastien-lorber-articles','4a1'),exact:true},{path:'/blog/authors/yangshun',component:ComponentCreator('/blog/authors/yangshun','a68'),exact:true},{path:'/blog/first-blog-post',component:ComponentCreator('/blog/first-blog-post','89a'),exact:true},{path:'/blog/long-blog-post',component:ComponentCreator('/blog/long-blog-post','9ad'),exact:true},{path:'/blog/mdx-blog-post',component:ComponentCreator('/blog/mdx-blog-post','e9f'),exact:true},{path:'/blog/tags',component:ComponentCreator('/blog/tags','287'),exact:true},{path:'/blog/tags/docusaurus',component:ComponentCreator('/blog/tags/docusaurus','704'),exact:true},{path:'/blog/tags/facebook',component:ComponentCreator('/blog/tags/facebook','858'),exact:true},{path:'/blog/tags/hello',component:ComponentCreator('/blog/tags/hello','299'),exact:true},{path:'/blog/tags/hola',component:ComponentCreator('/blog/tags/hola','00d'),exact:true},{path:'/blog/welcome',component:ComponentCreator('/blog/welcome','d2b'),exact:true},{path:'/examples',component:ComponentCreator('/examples','2c4'),exact:true},{path:'/docs',component:ComponentCreator('/docs','937'),routes:[{path:'/docs',component:ComponentCreator('/docs','b26'),routes:[{path:'/docs',component:ComponentCreator('/docs','e7c'),routes:[{path:'/docs/basic-usage',component:ComponentCreator('/docs/basic-usage','d84'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/category/frameworks',component:ComponentCreator('/docs/category/frameworks','080'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/chart-heads',component:ComponentCreator('/docs/chart-heads','5f9'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/colors',component:ComponentCreator('/docs/colors','425'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/contributing',component:ComponentCreator('/docs/contributing','2a4'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/events',component:ComponentCreator('/docs/events','b92'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/frameworks/react-js',component:ComponentCreator('/docs/frameworks/react-js','cbb'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/installation',component:ComponentCreator('/docs/installation','08e'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/intro',component:ComponentCreator('/docs/intro','89a'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/methods',component:ComponentCreator('/docs/methods','8ba'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/options',component:ComponentCreator('/docs/options','e49'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/tree-data',component:ComponentCreator('/docs/tree-data','959'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/trees',component:ComponentCreator('/docs/trees','0b7'),exact:true,sidebar:"tutorialSidebar"}]}]}]},{path:'/',component:ComponentCreator('/','e5f'),exact:true},{path:'*',component:ComponentCreator('*')}]);
+/* harmony default export */ const routes = ([{path:'/treespider-doc/blog',component:ComponentCreator('/treespider-doc/blog','649'),exact:true},{path:'/treespider-doc/blog/archive',component:ComponentCreator('/treespider-doc/blog/archive','11c'),exact:true},{path:'/treespider-doc/blog/authors',component:ComponentCreator('/treespider-doc/blog/authors','574'),exact:true},{path:'/treespider-doc/blog/authors/all-sebastien-lorber-articles',component:ComponentCreator('/treespider-doc/blog/authors/all-sebastien-lorber-articles','8b3'),exact:true},{path:'/treespider-doc/blog/authors/yangshun',component:ComponentCreator('/treespider-doc/blog/authors/yangshun','c3e'),exact:true},{path:'/treespider-doc/blog/first-blog-post',component:ComponentCreator('/treespider-doc/blog/first-blog-post','ed5'),exact:true},{path:'/treespider-doc/blog/long-blog-post',component:ComponentCreator('/treespider-doc/blog/long-blog-post','3c6'),exact:true},{path:'/treespider-doc/blog/mdx-blog-post',component:ComponentCreator('/treespider-doc/blog/mdx-blog-post','a51'),exact:true},{path:'/treespider-doc/blog/tags',component:ComponentCreator('/treespider-doc/blog/tags','464'),exact:true},{path:'/treespider-doc/blog/tags/docusaurus',component:ComponentCreator('/treespider-doc/blog/tags/docusaurus','52d'),exact:true},{path:'/treespider-doc/blog/tags/facebook',component:ComponentCreator('/treespider-doc/blog/tags/facebook','3be'),exact:true},{path:'/treespider-doc/blog/tags/hello',component:ComponentCreator('/treespider-doc/blog/tags/hello','648'),exact:true},{path:'/treespider-doc/blog/tags/hola',component:ComponentCreator('/treespider-doc/blog/tags/hola','7d9'),exact:true},{path:'/treespider-doc/blog/welcome',component:ComponentCreator('/treespider-doc/blog/welcome','cdb'),exact:true},{path:'/treespider-doc/examples',component:ComponentCreator('/treespider-doc/examples','7bd'),exact:true},{path:'/treespider-doc/docs',component:ComponentCreator('/treespider-doc/docs','9fd'),routes:[{path:'/treespider-doc/docs',component:ComponentCreator('/treespider-doc/docs','0bb'),routes:[{path:'/treespider-doc/docs',component:ComponentCreator('/treespider-doc/docs','5a5'),routes:[{path:'/treespider-doc/docs/basic-usage',component:ComponentCreator('/treespider-doc/docs/basic-usage','3f1'),exact:true,sidebar:"tutorialSidebar"},{path:'/treespider-doc/docs/category/frameworks',component:ComponentCreator('/treespider-doc/docs/category/frameworks','7cf'),exact:true,sidebar:"tutorialSidebar"},{path:'/treespider-doc/docs/chart-heads',component:ComponentCreator('/treespider-doc/docs/chart-heads','e83'),exact:true,sidebar:"tutorialSidebar"},{path:'/treespider-doc/docs/colors',component:ComponentCreator('/treespider-doc/docs/colors','213'),exact:true,sidebar:"tutorialSidebar"},{path:'/treespider-doc/docs/contributing',component:ComponentCreator('/treespider-doc/docs/contributing','58c'),exact:true,sidebar:"tutorialSidebar"},{path:'/treespider-doc/docs/events',component:ComponentCreator('/treespider-doc/docs/events','533'),exact:true,sidebar:"tutorialSidebar"},{path:'/treespider-doc/docs/frameworks/react-js',component:ComponentCreator('/treespider-doc/docs/frameworks/react-js','7bb'),exact:true,sidebar:"tutorialSidebar"},{path:'/treespider-doc/docs/installation',component:ComponentCreator('/treespider-doc/docs/installation','c63'),exact:true,sidebar:"tutorialSidebar"},{path:'/treespider-doc/docs/intro',component:ComponentCreator('/treespider-doc/docs/intro','7a3'),exact:true,sidebar:"tutorialSidebar"},{path:'/treespider-doc/docs/methods',component:ComponentCreator('/treespider-doc/docs/methods','494'),exact:true,sidebar:"tutorialSidebar"},{path:'/treespider-doc/docs/options',component:ComponentCreator('/treespider-doc/docs/options','e9d'),exact:true,sidebar:"tutorialSidebar"},{path:'/treespider-doc/docs/tree-data',component:ComponentCreator('/treespider-doc/docs/tree-data','873'),exact:true,sidebar:"tutorialSidebar"},{path:'/treespider-doc/docs/trees',component:ComponentCreator('/treespider-doc/docs/trees','2e4'),exact:true,sidebar:"tutorialSidebar"}]}]}]},{path:'/treespider-doc/',component:ComponentCreator('/treespider-doc/','e31'),exact:true},{path:'*',component:ComponentCreator('*')}]);
 
 /***/ }),
 
@@ -6409,7 +6409,7 @@ var react = __webpack_require__(6540);
 // EXTERNAL MODULE: ./.docusaurus/docusaurus.config.mjs
 var docusaurus_config = __webpack_require__(4784);
 ;// ./.docusaurus/globalData.json
-const globalData_namespaceObject = /*#__PURE__*/JSON.parse('{"docusaurus-plugin-content-docs":{"default":{"path":"/docs","versions":[{"name":"current","label":"Next","isLast":true,"path":"/docs","mainDocId":"intro","docs":[{"id":"basic-usage","path":"/docs/basic-usage","sidebar":"tutorialSidebar"},{"id":"chart-heads","path":"/docs/chart-heads","sidebar":"tutorialSidebar"},{"id":"colors","path":"/docs/colors","sidebar":"tutorialSidebar"},{"id":"contributing","path":"/docs/contributing","sidebar":"tutorialSidebar"},{"id":"events","path":"/docs/events","sidebar":"tutorialSidebar"},{"id":"frameworks/react-js","path":"/docs/frameworks/react-js","sidebar":"tutorialSidebar"},{"id":"installation","path":"/docs/installation","sidebar":"tutorialSidebar"},{"id":"intro","path":"/docs/intro","sidebar":"tutorialSidebar"},{"id":"methods","path":"/docs/methods","sidebar":"tutorialSidebar"},{"id":"options","path":"/docs/options","sidebar":"tutorialSidebar"},{"id":"tree-data","path":"/docs/tree-data","sidebar":"tutorialSidebar"},{"id":"trees","path":"/docs/trees","sidebar":"tutorialSidebar"},{"id":"/category/frameworks","path":"/docs/category/frameworks","sidebar":"tutorialSidebar"}],"draftIds":[],"sidebars":{"tutorialSidebar":{"link":{"path":"/docs/intro","label":"intro"}}}}],"breadcrumbs":true}}}');
+const globalData_namespaceObject = /*#__PURE__*/JSON.parse('{"docusaurus-plugin-content-docs":{"default":{"path":"/treespider-doc/docs","versions":[{"name":"current","label":"Next","isLast":true,"path":"/treespider-doc/docs","mainDocId":"intro","docs":[{"id":"basic-usage","path":"/treespider-doc/docs/basic-usage","sidebar":"tutorialSidebar"},{"id":"chart-heads","path":"/treespider-doc/docs/chart-heads","sidebar":"tutorialSidebar"},{"id":"colors","path":"/treespider-doc/docs/colors","sidebar":"tutorialSidebar"},{"id":"contributing","path":"/treespider-doc/docs/contributing","sidebar":"tutorialSidebar"},{"id":"events","path":"/treespider-doc/docs/events","sidebar":"tutorialSidebar"},{"id":"frameworks/react-js","path":"/treespider-doc/docs/frameworks/react-js","sidebar":"tutorialSidebar"},{"id":"installation","path":"/treespider-doc/docs/installation","sidebar":"tutorialSidebar"},{"id":"intro","path":"/treespider-doc/docs/intro","sidebar":"tutorialSidebar"},{"id":"methods","path":"/treespider-doc/docs/methods","sidebar":"tutorialSidebar"},{"id":"options","path":"/treespider-doc/docs/options","sidebar":"tutorialSidebar"},{"id":"tree-data","path":"/treespider-doc/docs/tree-data","sidebar":"tutorialSidebar"},{"id":"trees","path":"/treespider-doc/docs/trees","sidebar":"tutorialSidebar"},{"id":"/category/frameworks","path":"/treespider-doc/docs/category/frameworks","sidebar":"tutorialSidebar"}],"draftIds":[],"sidebars":{"tutorialSidebar":{"link":{"path":"/treespider-doc/docs/intro","label":"intro"}}}}],"breadcrumbs":true}}}');
 ;// ./.docusaurus/i18n.json
 const i18n_namespaceObject = /*#__PURE__*/JSON.parse('{"defaultLocale":"en","locales":["en"],"path":"i18n","currentLocale":"en","localeConfigs":{"en":{"label":"English","direction":"ltr","htmlLang":"en","calendar":"gregory","path":"en"}}}');
 // EXTERNAL MODULE: ./.docusaurus/codeTranslations.json
@@ -17488,8 +17488,8 @@ __webpack_require__.r(__webpack_exports__);
   "title": "TreeSpider",
   "tagline": "JavaScript library for displaying organization structures in style",
   "favicon": "img/favicon.ico",
-  "url": "https://treespider.pryxy.com",
-  "baseUrl": "/",
+  "url": "https://paulosabayomi.github.io",
+  "baseUrl": "/treespider-doc/",
   "organizationName": "paulosabayomi",
   "projectName": "treespider-doc",
   "onBrokenLinks": "throw",
@@ -17590,7 +17590,7 @@ __webpack_require__.r(__webpack_exports__);
           ]
         }
       ],
-      "copyright": "Copyright © 2024 TreeSpider. All rights reserved. Created with &#10084; by Abayomi Amusa"
+      "copyright": "Copyright © 2025 TreeSpider. All rights reserved. Created with &#10084; by Abayomi Amusa"
     },
     "prism": {
       "theme": {
@@ -21685,7 +21685,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"name":"docusaurus-plugin-content-blo
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/blog/welcome","unlisted":false,"date":"2021-08-26T00:00:00.000Z"},{"title":"MDX Blog Post","permalink":"/blog/mdx-blog-post","unlisted":false,"date":"2021-08-01T00:00:00.000Z"},{"title":"Long Blog Post","permalink":"/blog/long-blog-post","unlisted":false,"date":"2019-05-29T00:00:00.000Z"},{"title":"First Blog Post","permalink":"/blog/first-blog-post","unlisted":false,"date":"2019-05-28T00:00:00.000Z"}]}');
+module.exports = /*#__PURE__*/JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/treespider-doc/blog/welcome","unlisted":false,"date":"2021-08-26T00:00:00.000Z"},{"title":"MDX Blog Post","permalink":"/treespider-doc/blog/mdx-blog-post","unlisted":false,"date":"2021-08-01T00:00:00.000Z"},{"title":"Long Blog Post","permalink":"/treespider-doc/blog/long-blog-post","unlisted":false,"date":"2019-05-29T00:00:00.000Z"},{"title":"First Blog Post","permalink":"/treespider-doc/blog/first-blog-post","unlisted":false,"date":"2019-05-28T00:00:00.000Z"}]}');
 
 /***/ }),
 
@@ -21693,87 +21693,87 @@ module.exports = /*#__PURE__*/JSON.parse('{"title":"Recent posts","items":[{"tit
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"blogBasePath":"/blog","blogTitle":"Blog","authorsListPath":"/blog/authors"}');
+module.exports = /*#__PURE__*/JSON.parse('{"blogBasePath":"/treespider-doc/blog","blogTitle":"Blog","authorsListPath":"/treespider-doc/blog/authors"}');
 
 /***/ }),
 
-/***/ 7735:
+/***/ 7715:
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"archive":{"blogPosts":[{"id":"welcome","metadata":{"permalink":"/blog/welcome","editUrl":"https://github.com/paulosabayomi/treespider-doc/tree/main/blog/2021-08-26-welcome/index.md","source":"@site/blog/2021-08-26-welcome/index.md","title":"Welcome","description":"Docusaurus blogging features are powered by the blog plugin.","date":"2021-08-26T00:00:00.000Z","tags":[{"inline":false,"label":"Facebook","permalink":"/blog/tags/facebook","description":"Facebook tag description"},{"inline":false,"label":"Hello","permalink":"/blog/tags/hello","description":"Hello tag description"},{"inline":false,"label":"Docusaurus","permalink":"/blog/tags/docusaurus","description":"Docusaurus tag description"}],"readingTime":0.465,"hasTruncateMarker":true,"authors":[{"name":"Sébastien Lorber","title":"Docusaurus maintainer","url":"https://sebastienlorber.com","page":{"permalink":"/blog/authors/all-sebastien-lorber-articles"},"socials":{"x":"https://x.com/sebastienlorber","linkedin":"https://www.linkedin.com/in/sebastienlorber/","github":"https://github.com/slorber","newsletter":"https://thisweekinreact.com"},"imageURL":"https://github.com/slorber.png","key":"slorber"},{"name":"Yangshun Tay","title":"Front End Engineer @ Facebook","url":"https://github.com/yangshun","page":{"permalink":"/blog/authors/yangshun"},"socials":{"x":"https://x.com/yangshunz","github":"https://github.com/yangshun"},"imageURL":"https://github.com/yangshun.png","key":"yangshun"}],"frontMatter":{"slug":"welcome","title":"Welcome","authors":["slorber","yangshun"],"tags":["facebook","hello","docusaurus"]},"unlisted":false,"nextItem":{"title":"MDX Blog Post","permalink":"/blog/mdx-blog-post"}},"content":"[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\\n\\nHere are a few tips you might find useful.\\n\\n<!-- truncate -->\\n\\nSimply add Markdown files (or folders) to the `blog` directory.\\n\\nRegular blog authors can be added to `authors.yml`.\\n\\nThe blog post date can be extracted from filenames, such as:\\n\\n- `2019-05-30-welcome.md`\\n- `2019-05-30-welcome/index.md`\\n\\nA blog post folder can be convenient to co-locate blog post images:\\n\\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\\n\\nThe blog supports tags as well!\\n\\n**And if you don\'t want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."},{"id":"mdx-blog-post","metadata":{"permalink":"/blog/mdx-blog-post","editUrl":"https://github.com/paulosabayomi/treespider-doc/tree/main/blog/2021-08-01-mdx-blog-post.mdx","source":"@site/blog/2021-08-01-mdx-blog-post.mdx","title":"MDX Blog Post","description":"Blog posts support Docusaurus Markdown features, such as MDX.","date":"2021-08-01T00:00:00.000Z","tags":[{"inline":false,"label":"Docusaurus","permalink":"/blog/tags/docusaurus","description":"Docusaurus tag description"}],"readingTime":0.235,"hasTruncateMarker":true,"authors":[{"name":"Sébastien Lorber","title":"Docusaurus maintainer","url":"https://sebastienlorber.com","page":{"permalink":"/blog/authors/all-sebastien-lorber-articles"},"socials":{"x":"https://x.com/sebastienlorber","linkedin":"https://www.linkedin.com/in/sebastienlorber/","github":"https://github.com/slorber","newsletter":"https://thisweekinreact.com"},"imageURL":"https://github.com/slorber.png","key":"slorber"}],"frontMatter":{"slug":"mdx-blog-post","title":"MDX Blog Post","authors":["slorber"],"tags":["docusaurus"]},"unlisted":false,"prevItem":{"title":"Welcome","permalink":"/blog/welcome"},"nextItem":{"title":"Long Blog Post","permalink":"/blog/long-blog-post"}},"content":"Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\\n\\n:::tip\\n\\nUse the power of React to create interactive blog posts.\\n\\n:::\\n\\n{/* truncate */}\\n\\nFor example, use JSX to create an interactive button:\\n\\n```js\\n<button onClick={() => alert(\'button clicked!\')}>Click me!</button>\\n```\\n\\n<button onClick={() => alert(\'button clicked!\')}>Click me!</button>"},{"id":"long-blog-post","metadata":{"permalink":"/blog/long-blog-post","editUrl":"https://github.com/paulosabayomi/treespider-doc/tree/main/blog/2019-05-29-long-blog-post.md","source":"@site/blog/2019-05-29-long-blog-post.md","title":"Long Blog Post","description":"This is the summary of a very long blog post,","date":"2019-05-29T00:00:00.000Z","tags":[{"inline":false,"label":"Hello","permalink":"/blog/tags/hello","description":"Hello tag description"},{"inline":false,"label":"Docusaurus","permalink":"/blog/tags/docusaurus","description":"Docusaurus tag description"}],"readingTime":2.06,"hasTruncateMarker":true,"authors":[{"name":"Yangshun Tay","title":"Front End Engineer @ Facebook","url":"https://github.com/yangshun","page":{"permalink":"/blog/authors/yangshun"},"socials":{"x":"https://x.com/yangshunz","github":"https://github.com/yangshun"},"imageURL":"https://github.com/yangshun.png","key":"yangshun"}],"frontMatter":{"slug":"long-blog-post","title":"Long Blog Post","authors":"yangshun","tags":["hello","docusaurus"]},"unlisted":false,"prevItem":{"title":"MDX Blog Post","permalink":"/blog/mdx-blog-post"},"nextItem":{"title":"First Blog Post","permalink":"/blog/first-blog-post"}},"content":"This is the summary of a very long blog post,\\n\\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\\n\\n<!-- truncate -->\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"},{"id":"first-blog-post","metadata":{"permalink":"/blog/first-blog-post","editUrl":"https://github.com/paulosabayomi/treespider-doc/tree/main/blog/2019-05-28-first-blog-post.md","source":"@site/blog/2019-05-28-first-blog-post.md","title":"First Blog Post","description":"Lorem ipsum dolor sit amet...","date":"2019-05-28T00:00:00.000Z","tags":[{"inline":false,"label":"Hola","permalink":"/blog/tags/hola","description":"Hola tag description"},{"inline":false,"label":"Docusaurus","permalink":"/blog/tags/docusaurus","description":"Docusaurus tag description"}],"readingTime":0.135,"hasTruncateMarker":true,"authors":[{"name":"Sébastien Lorber","title":"Docusaurus maintainer","url":"https://sebastienlorber.com","page":{"permalink":"/blog/authors/all-sebastien-lorber-articles"},"socials":{"x":"https://x.com/sebastienlorber","linkedin":"https://www.linkedin.com/in/sebastienlorber/","github":"https://github.com/slorber","newsletter":"https://thisweekinreact.com"},"imageURL":"https://github.com/slorber.png","key":"slorber"},{"name":"Yangshun Tay","title":"Front End Engineer @ Facebook","url":"https://github.com/yangshun","page":{"permalink":"/blog/authors/yangshun"},"socials":{"x":"https://x.com/yangshunz","github":"https://github.com/yangshun"},"imageURL":"https://github.com/yangshun.png","key":"yangshun"}],"frontMatter":{"slug":"first-blog-post","title":"First Blog Post","authors":["slorber","yangshun"],"tags":["hola","docusaurus"]},"unlisted":false,"prevItem":{"title":"Long Blog Post","permalink":"/blog/long-blog-post"}},"content":"Lorem ipsum dolor sit amet...\\n\\n<!-- truncate -->\\n\\n...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"}]}}');
+module.exports = /*#__PURE__*/JSON.parse('{"archive":{"blogPosts":[{"id":"welcome","metadata":{"permalink":"/treespider-doc/blog/welcome","editUrl":"https://github.com/paulosabayomi/treespider-doc/tree/main/blog/2021-08-26-welcome/index.md","source":"@site/blog/2021-08-26-welcome/index.md","title":"Welcome","description":"Docusaurus blogging features are powered by the blog plugin.","date":"2021-08-26T00:00:00.000Z","tags":[{"inline":false,"label":"Facebook","permalink":"/treespider-doc/blog/tags/facebook","description":"Facebook tag description"},{"inline":false,"label":"Hello","permalink":"/treespider-doc/blog/tags/hello","description":"Hello tag description"},{"inline":false,"label":"Docusaurus","permalink":"/treespider-doc/blog/tags/docusaurus","description":"Docusaurus tag description"}],"readingTime":0.465,"hasTruncateMarker":true,"authors":[{"name":"Sébastien Lorber","title":"Docusaurus maintainer","url":"https://sebastienlorber.com","page":{"permalink":"/treespider-doc/blog/authors/all-sebastien-lorber-articles"},"socials":{"x":"https://x.com/sebastienlorber","linkedin":"https://www.linkedin.com/in/sebastienlorber/","github":"https://github.com/slorber","newsletter":"https://thisweekinreact.com"},"imageURL":"https://github.com/slorber.png","key":"slorber"},{"name":"Yangshun Tay","title":"Front End Engineer @ Facebook","url":"https://github.com/yangshun","page":{"permalink":"/treespider-doc/blog/authors/yangshun"},"socials":{"x":"https://x.com/yangshunz","github":"https://github.com/yangshun"},"imageURL":"https://github.com/yangshun.png","key":"yangshun"}],"frontMatter":{"slug":"welcome","title":"Welcome","authors":["slorber","yangshun"],"tags":["facebook","hello","docusaurus"]},"unlisted":false,"nextItem":{"title":"MDX Blog Post","permalink":"/treespider-doc/blog/mdx-blog-post"}},"content":"[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\\n\\nHere are a few tips you might find useful.\\n\\n<!-- truncate -->\\n\\nSimply add Markdown files (or folders) to the `blog` directory.\\n\\nRegular blog authors can be added to `authors.yml`.\\n\\nThe blog post date can be extracted from filenames, such as:\\n\\n- `2019-05-30-welcome.md`\\n- `2019-05-30-welcome/index.md`\\n\\nA blog post folder can be convenient to co-locate blog post images:\\n\\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\\n\\nThe blog supports tags as well!\\n\\n**And if you don\'t want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."},{"id":"mdx-blog-post","metadata":{"permalink":"/treespider-doc/blog/mdx-blog-post","editUrl":"https://github.com/paulosabayomi/treespider-doc/tree/main/blog/2021-08-01-mdx-blog-post.mdx","source":"@site/blog/2021-08-01-mdx-blog-post.mdx","title":"MDX Blog Post","description":"Blog posts support Docusaurus Markdown features, such as MDX.","date":"2021-08-01T00:00:00.000Z","tags":[{"inline":false,"label":"Docusaurus","permalink":"/treespider-doc/blog/tags/docusaurus","description":"Docusaurus tag description"}],"readingTime":0.235,"hasTruncateMarker":true,"authors":[{"name":"Sébastien Lorber","title":"Docusaurus maintainer","url":"https://sebastienlorber.com","page":{"permalink":"/treespider-doc/blog/authors/all-sebastien-lorber-articles"},"socials":{"x":"https://x.com/sebastienlorber","linkedin":"https://www.linkedin.com/in/sebastienlorber/","github":"https://github.com/slorber","newsletter":"https://thisweekinreact.com"},"imageURL":"https://github.com/slorber.png","key":"slorber"}],"frontMatter":{"slug":"mdx-blog-post","title":"MDX Blog Post","authors":["slorber"],"tags":["docusaurus"]},"unlisted":false,"prevItem":{"title":"Welcome","permalink":"/treespider-doc/blog/welcome"},"nextItem":{"title":"Long Blog Post","permalink":"/treespider-doc/blog/long-blog-post"}},"content":"Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\\n\\n:::tip\\n\\nUse the power of React to create interactive blog posts.\\n\\n:::\\n\\n{/* truncate */}\\n\\nFor example, use JSX to create an interactive button:\\n\\n```js\\n<button onClick={() => alert(\'button clicked!\')}>Click me!</button>\\n```\\n\\n<button onClick={() => alert(\'button clicked!\')}>Click me!</button>"},{"id":"long-blog-post","metadata":{"permalink":"/treespider-doc/blog/long-blog-post","editUrl":"https://github.com/paulosabayomi/treespider-doc/tree/main/blog/2019-05-29-long-blog-post.md","source":"@site/blog/2019-05-29-long-blog-post.md","title":"Long Blog Post","description":"This is the summary of a very long blog post,","date":"2019-05-29T00:00:00.000Z","tags":[{"inline":false,"label":"Hello","permalink":"/treespider-doc/blog/tags/hello","description":"Hello tag description"},{"inline":false,"label":"Docusaurus","permalink":"/treespider-doc/blog/tags/docusaurus","description":"Docusaurus tag description"}],"readingTime":2.06,"hasTruncateMarker":true,"authors":[{"name":"Yangshun Tay","title":"Front End Engineer @ Facebook","url":"https://github.com/yangshun","page":{"permalink":"/treespider-doc/blog/authors/yangshun"},"socials":{"x":"https://x.com/yangshunz","github":"https://github.com/yangshun"},"imageURL":"https://github.com/yangshun.png","key":"yangshun"}],"frontMatter":{"slug":"long-blog-post","title":"Long Blog Post","authors":"yangshun","tags":["hello","docusaurus"]},"unlisted":false,"prevItem":{"title":"MDX Blog Post","permalink":"/treespider-doc/blog/mdx-blog-post"},"nextItem":{"title":"First Blog Post","permalink":"/treespider-doc/blog/first-blog-post"}},"content":"This is the summary of a very long blog post,\\n\\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\\n\\n<!-- truncate -->\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"},{"id":"first-blog-post","metadata":{"permalink":"/treespider-doc/blog/first-blog-post","editUrl":"https://github.com/paulosabayomi/treespider-doc/tree/main/blog/2019-05-28-first-blog-post.md","source":"@site/blog/2019-05-28-first-blog-post.md","title":"First Blog Post","description":"Lorem ipsum dolor sit amet...","date":"2019-05-28T00:00:00.000Z","tags":[{"inline":false,"label":"Hola","permalink":"/treespider-doc/blog/tags/hola","description":"Hola tag description"},{"inline":false,"label":"Docusaurus","permalink":"/treespider-doc/blog/tags/docusaurus","description":"Docusaurus tag description"}],"readingTime":0.135,"hasTruncateMarker":true,"authors":[{"name":"Sébastien Lorber","title":"Docusaurus maintainer","url":"https://sebastienlorber.com","page":{"permalink":"/treespider-doc/blog/authors/all-sebastien-lorber-articles"},"socials":{"x":"https://x.com/sebastienlorber","linkedin":"https://www.linkedin.com/in/sebastienlorber/","github":"https://github.com/slorber","newsletter":"https://thisweekinreact.com"},"imageURL":"https://github.com/slorber.png","key":"slorber"},{"name":"Yangshun Tay","title":"Front End Engineer @ Facebook","url":"https://github.com/yangshun","page":{"permalink":"/treespider-doc/blog/authors/yangshun"},"socials":{"x":"https://x.com/yangshunz","github":"https://github.com/yangshun"},"imageURL":"https://github.com/yangshun.png","key":"yangshun"}],"frontMatter":{"slug":"first-blog-post","title":"First Blog Post","authors":["slorber","yangshun"],"tags":["hola","docusaurus"]},"unlisted":false,"prevItem":{"title":"Long Blog Post","permalink":"/treespider-doc/blog/long-blog-post"}},"content":"Lorem ipsum dolor sit amet...\\n\\n<!-- truncate -->\\n\\n...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"}]}}');
 
 /***/ }),
 
-/***/ 6600:
+/***/ 1259:
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"authors":[{"name":"Yangshun Tay","title":"Front End Engineer @ Facebook","url":"https://github.com/yangshun","page":{"permalink":"/blog/authors/yangshun"},"socials":{"x":"https://x.com/yangshunz","github":"https://github.com/yangshun"},"imageURL":"https://github.com/yangshun.png","key":"yangshun","count":3},{"name":"Sébastien Lorber","title":"Docusaurus maintainer","url":"https://sebastienlorber.com","page":{"permalink":"/blog/authors/all-sebastien-lorber-articles"},"socials":{"x":"https://x.com/sebastienlorber","linkedin":"https://www.linkedin.com/in/sebastienlorber/","github":"https://github.com/slorber","newsletter":"https://thisweekinreact.com"},"imageURL":"https://github.com/slorber.png","key":"slorber","count":3}]}');
+module.exports = /*#__PURE__*/JSON.parse('{"authors":[{"name":"Yangshun Tay","title":"Front End Engineer @ Facebook","url":"https://github.com/yangshun","page":{"permalink":"/treespider-doc/blog/authors/yangshun"},"socials":{"x":"https://x.com/yangshunz","github":"https://github.com/yangshun"},"imageURL":"https://github.com/yangshun.png","key":"yangshun","count":3},{"name":"Sébastien Lorber","title":"Docusaurus maintainer","url":"https://sebastienlorber.com","page":{"permalink":"/treespider-doc/blog/authors/all-sebastien-lorber-articles"},"socials":{"x":"https://x.com/sebastienlorber","linkedin":"https://www.linkedin.com/in/sebastienlorber/","github":"https://github.com/slorber","newsletter":"https://thisweekinreact.com"},"imageURL":"https://github.com/slorber.png","key":"slorber","count":3}]}');
 
 /***/ }),
 
-/***/ 4971:
+/***/ 3890:
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"author":{"name":"Sébastien Lorber","title":"Docusaurus maintainer","url":"https://sebastienlorber.com","page":{"permalink":"/blog/authors/all-sebastien-lorber-articles"},"socials":{"x":"https://x.com/sebastienlorber","linkedin":"https://www.linkedin.com/in/sebastienlorber/","github":"https://github.com/slorber","newsletter":"https://thisweekinreact.com"},"imageURL":"https://github.com/slorber.png","key":"slorber","count":3},"listMetadata":{"permalink":"/blog/authors/all-sebastien-lorber-articles","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"Blog"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"author":{"name":"Sébastien Lorber","title":"Docusaurus maintainer","url":"https://sebastienlorber.com","page":{"permalink":"/treespider-doc/blog/authors/all-sebastien-lorber-articles"},"socials":{"x":"https://x.com/sebastienlorber","linkedin":"https://www.linkedin.com/in/sebastienlorber/","github":"https://github.com/slorber","newsletter":"https://thisweekinreact.com"},"imageURL":"https://github.com/slorber.png","key":"slorber","count":3},"listMetadata":{"permalink":"/treespider-doc/blog/authors/all-sebastien-lorber-articles","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"Blog"}}');
 
 /***/ }),
 
-/***/ 6067:
+/***/ 329:
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"author":{"name":"Yangshun Tay","title":"Front End Engineer @ Facebook","url":"https://github.com/yangshun","page":{"permalink":"/blog/authors/yangshun"},"socials":{"x":"https://x.com/yangshunz","github":"https://github.com/yangshun"},"imageURL":"https://github.com/yangshun.png","key":"yangshun","count":3},"listMetadata":{"permalink":"/blog/authors/yangshun","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"Blog"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"author":{"name":"Yangshun Tay","title":"Front End Engineer @ Facebook","url":"https://github.com/yangshun","page":{"permalink":"/treespider-doc/blog/authors/yangshun"},"socials":{"x":"https://x.com/yangshunz","github":"https://github.com/yangshun"},"imageURL":"https://github.com/yangshun.png","key":"yangshun","count":3},"listMetadata":{"permalink":"/treespider-doc/blog/authors/yangshun","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"Blog"}}');
 
 /***/ }),
 
-/***/ 9328:
+/***/ 4580:
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"metadata":{"permalink":"/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"metadata":{"permalink":"/treespider-doc/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}');
 
 /***/ }),
 
-/***/ 8070:
+/***/ 6431:
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"tags":[{"label":"Facebook","permalink":"/blog/tags/facebook","description":"Facebook tag description","count":1},{"label":"Hello","permalink":"/blog/tags/hello","description":"Hello tag description","count":2},{"label":"Docusaurus","permalink":"/blog/tags/docusaurus","description":"Docusaurus tag description","count":4},{"label":"Hola","permalink":"/blog/tags/hola","description":"Hola tag description","count":1}]}');
+module.exports = /*#__PURE__*/JSON.parse('{"tag":{"label":"Docusaurus","permalink":"/treespider-doc/blog/tags/docusaurus","description":"Docusaurus tag description","allTagsPath":"/treespider-doc/blog/tags","count":4,"unlisted":false},"listMetadata":{"permalink":"/treespider-doc/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}');
 
 /***/ }),
 
-/***/ 8174:
+/***/ 9292:
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"tag":{"label":"Docusaurus","permalink":"/blog/tags/docusaurus","description":"Docusaurus tag description","allTagsPath":"/blog/tags","count":4,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"tags":[{"label":"Facebook","permalink":"/treespider-doc/blog/tags/facebook","description":"Facebook tag description","count":1},{"label":"Hello","permalink":"/treespider-doc/blog/tags/hello","description":"Hello tag description","count":2},{"label":"Docusaurus","permalink":"/treespider-doc/blog/tags/docusaurus","description":"Docusaurus tag description","count":4},{"label":"Hola","permalink":"/treespider-doc/blog/tags/hola","description":"Hola tag description","count":1}]}');
 
 /***/ }),
 
-/***/ 8539:
+/***/ 4076:
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"tag":{"label":"Facebook","permalink":"/blog/tags/facebook","description":"Facebook tag description","allTagsPath":"/blog/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"tag":{"label":"Facebook","permalink":"/treespider-doc/blog/tags/facebook","description":"Facebook tag description","allTagsPath":"/treespider-doc/blog/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/treespider-doc/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}');
 
 /***/ }),
 
-/***/ 4035:
+/***/ 3230:
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"tag":{"label":"Hello","permalink":"/blog/tags/hello","description":"Hello tag description","allTagsPath":"/blog/tags","count":2,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"tag":{"label":"Hello","permalink":"/treespider-doc/blog/tags/hello","description":"Hello tag description","allTagsPath":"/treespider-doc/blog/tags","count":2,"unlisted":false},"listMetadata":{"permalink":"/treespider-doc/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}}');
 
 /***/ }),
 
-/***/ 7134:
+/***/ 1151:
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"tag":{"label":"Hola","permalink":"/blog/tags/hola","description":"Hola tag description","allTagsPath":"/blog/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"tag":{"label":"Hola","permalink":"/treespider-doc/blog/tags/hola","description":"Hola tag description","allTagsPath":"/treespider-doc/blog/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/treespider-doc/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}');
 
 /***/ }),
 
@@ -21785,19 +21785,19 @@ module.exports = /*#__PURE__*/JSON.parse('{"name":"docusaurus-plugin-content-doc
 
 /***/ }),
 
-/***/ 6164:
+/***/ 8740:
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"version":{"pluginId":"default","version":"current","label":"Next","banner":null,"badge":false,"noIndex":false,"className":"docs-version-current","isLast":true,"docsSidebars":{"tutorialSidebar":[{"type":"link","label":"Introduction","href":"/docs/intro","docId":"intro","unlisted":false},{"type":"link","label":"Installation","href":"/docs/installation","docId":"installation","unlisted":false},{"type":"link","label":"Basic Usage","href":"/docs/basic-usage","docId":"basic-usage","unlisted":false},{"type":"link","label":"Tree Data","href":"/docs/tree-data","docId":"tree-data","unlisted":false},{"type":"link","label":"Trees","href":"/docs/trees","docId":"trees","unlisted":false},{"type":"link","label":"Chart Heads","href":"/docs/chart-heads","docId":"chart-heads","unlisted":false},{"type":"link","label":"Options","href":"/docs/options","docId":"options","unlisted":false},{"type":"link","label":"Colors","href":"/docs/colors","docId":"colors","unlisted":false},{"type":"link","label":"Methods","href":"/docs/methods","docId":"methods","unlisted":false},{"type":"link","label":"Events","href":"/docs/events","docId":"events","unlisted":false},{"type":"category","label":"Frameworks","collapsible":true,"collapsed":true,"items":[{"type":"link","label":"React JS","href":"/docs/frameworks/react-js","docId":"frameworks/react-js","unlisted":false}],"href":"/docs/category/frameworks"},{"type":"link","label":"Contributing","href":"/docs/contributing","docId":"contributing","unlisted":false}]},"docs":{"basic-usage":{"id":"basic-usage","title":"Basic Usage","description":"Presumming you\'ve followed the installation steps, here is the basic usage of TreeSpider, all TreeSpider options are optional except the targetContainer, to intialize TreeSpider.","sidebar":"tutorialSidebar"},"chart-heads":{"id":"chart-heads","title":"Chart Heads","description":"As TreeSpider has different tree types so it also has different options of chart heads that can be chosen from, each trees has a fitting chart head, for example the rounded chart head goes well on the goldenRod tree, the chart heads are as follows","sidebar":"tutorialSidebar"},"colors":{"id":"colors","title":"Colors","description":"This page explains more on the colorrange option, you can customize TreeSpider chart head colors to fit your taste by providing an array of colors to the colorrange option, by default, TreeSpider uses a range of rainbow colors, how does it work? TreeSpider interpolates the provided colors using d3.interpolateRgbBasis() which produces a color range based on the provided colors, it then slice out a color based on the index of the tree data of the chart head, the index gets converted into percentage, like for example if the index of the tree data is 98 and the total length of the tree data is 200, the maths is going to be 98/200 which then gives the percentage and with this percentage it is used to get a slice from the interpolated color range and then the tree data\'s chart head get assigned the color slice, next let\'s check out how it really works.","sidebar":"tutorialSidebar"},"contributing":{"id":"contributing","title":"Contributing","description":"TreeSpider is still a work-in-progress and I am planning to make it better that it currently is, and your contribution is highly appreciated, and if you need a feature or want to add a tree type, a new chart head, a new link type or any other things you are welcome to contribute them, or if you noticed a bug you\'re welcome to create a pull request, your contributions are appreciated.","sidebar":"tutorialSidebar"},"events":{"id":"events","title":"Events","description":"TreeSpider has a list of events that can be listened for, the below is a list of all events.","sidebar":"tutorialSidebar"},"frameworks/react-js":{"id":"frameworks/react-js","title":"React JS","description":"TreeSpider can run in React JS applications, this documentation uses React JS and it runs TreeSpider, the following are the steps to running TreeSpider in a React JS application.","sidebar":"tutorialSidebar"},"installation":{"id":"installation","title":"Installation","description":"TreeSpider can be installed with npm or can be included via CDN.","sidebar":"tutorialSidebar"},"intro":{"id":"intro","title":"Introduction","description":"TreeSpider is an easy-to-use javascript library built for the purpose of displaying organization structure and employee structure and hierarchy within the organization, i.e for displaying employee data to know who reports to who and in which department, it makes it easy to manage employees in any organization of all sizes.","sidebar":"tutorialSidebar"},"methods":{"id":"methods","title":"Methods","description":"The following methods can be used to interact with TreeSpider programmatically","sidebar":"tutorialSidebar"},"options":{"id":"options","title":"Options","description":"TreeSpider can be personalized and customized with the options, the options are as follows","sidebar":"tutorialSidebar"},"tree-data":{"id":"tree-data","title":"Tree Data","description":"The TreeSpider tree data is straight forward, each employee has the required id and parentId properties, the parentId is for specifying the employee that an employee reports to, and the root employee or the overall head of the organization should not have the parentId property.","sidebar":"tutorialSidebar"},"trees":{"id":"trees","title":"Trees","description":"These are the different tree choices that can be chosen from, they will be caterized into radial and non-radial trees:","sidebar":"tutorialSidebar"}}}}');
+module.exports = /*#__PURE__*/JSON.parse('{"categoryGeneratedIndex":{"title":"Frameworks","description":"The list of frameworks that TreeSpider can work with","slug":"/category/frameworks","permalink":"/treespider-doc/docs/category/frameworks","sidebar":"tutorialSidebar","navigation":{"previous":{"title":"Events","permalink":"/treespider-doc/docs/events"},"next":{"title":"React JS","permalink":"/treespider-doc/docs/frameworks/react-js"}}}}');
 
 /***/ }),
 
-/***/ 4916:
+/***/ 7881:
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"categoryGeneratedIndex":{"title":"Frameworks","description":"The list of frameworks that TreeSpider can work with","slug":"/category/frameworks","permalink":"/docs/category/frameworks","sidebar":"tutorialSidebar","navigation":{"previous":{"title":"Events","permalink":"/docs/events"},"next":{"title":"React JS","permalink":"/docs/frameworks/react-js"}}}}');
+module.exports = /*#__PURE__*/JSON.parse('{"version":{"pluginId":"default","version":"current","label":"Next","banner":null,"badge":false,"noIndex":false,"className":"docs-version-current","isLast":true,"docsSidebars":{"tutorialSidebar":[{"type":"link","label":"Introduction","href":"/treespider-doc/docs/intro","docId":"intro","unlisted":false},{"type":"link","label":"Installation","href":"/treespider-doc/docs/installation","docId":"installation","unlisted":false},{"type":"link","label":"Basic Usage","href":"/treespider-doc/docs/basic-usage","docId":"basic-usage","unlisted":false},{"type":"link","label":"Tree Data","href":"/treespider-doc/docs/tree-data","docId":"tree-data","unlisted":false},{"type":"link","label":"Trees","href":"/treespider-doc/docs/trees","docId":"trees","unlisted":false},{"type":"link","label":"Chart Heads","href":"/treespider-doc/docs/chart-heads","docId":"chart-heads","unlisted":false},{"type":"link","label":"Options","href":"/treespider-doc/docs/options","docId":"options","unlisted":false},{"type":"link","label":"Colors","href":"/treespider-doc/docs/colors","docId":"colors","unlisted":false},{"type":"link","label":"Methods","href":"/treespider-doc/docs/methods","docId":"methods","unlisted":false},{"type":"link","label":"Events","href":"/treespider-doc/docs/events","docId":"events","unlisted":false},{"type":"category","label":"Frameworks","collapsible":true,"collapsed":true,"items":[{"type":"link","label":"React JS","href":"/treespider-doc/docs/frameworks/react-js","docId":"frameworks/react-js","unlisted":false}],"href":"/treespider-doc/docs/category/frameworks"},{"type":"link","label":"Contributing","href":"/treespider-doc/docs/contributing","docId":"contributing","unlisted":false}]},"docs":{"basic-usage":{"id":"basic-usage","title":"Basic Usage","description":"Presumming you\'ve followed the installation steps, here is the basic usage of TreeSpider, all TreeSpider options are optional except the targetContainer, to intialize TreeSpider.","sidebar":"tutorialSidebar"},"chart-heads":{"id":"chart-heads","title":"Chart Heads","description":"As TreeSpider has different tree types so it also has different options of chart heads that can be chosen from, each trees has a fitting chart head, for example the rounded chart head goes well on the goldenRod tree, the chart heads are as follows","sidebar":"tutorialSidebar"},"colors":{"id":"colors","title":"Colors","description":"This page explains more on the colorrange option, you can customize TreeSpider chart head colors to fit your taste by providing an array of colors to the colorrange option, by default, TreeSpider uses a range of rainbow colors, how does it work? TreeSpider interpolates the provided colors using d3.interpolateRgbBasis() which produces a color range based on the provided colors, it then slice out a color based on the index of the tree data of the chart head, the index gets converted into percentage, like for example if the index of the tree data is 98 and the total length of the tree data is 200, the maths is going to be 98/200 which then gives the percentage and with this percentage it is used to get a slice from the interpolated color range and then the tree data\'s chart head get assigned the color slice, next let\'s check out how it really works.","sidebar":"tutorialSidebar"},"contributing":{"id":"contributing","title":"Contributing","description":"TreeSpider is still a work-in-progress and I am planning to make it better that it currently is, and your contribution is highly appreciated, and if you need a feature or want to add a tree type, a new chart head, a new link type or any other things you are welcome to contribute them, or if you noticed a bug you\'re welcome to create a pull request, your contributions are appreciated.","sidebar":"tutorialSidebar"},"events":{"id":"events","title":"Events","description":"TreeSpider has a list of events that can be listened for, the below is a list of all events.","sidebar":"tutorialSidebar"},"frameworks/react-js":{"id":"frameworks/react-js","title":"React JS","description":"TreeSpider can run in React JS applications, this documentation uses React JS and it runs TreeSpider, the following are the steps to running TreeSpider in a React JS application.","sidebar":"tutorialSidebar"},"installation":{"id":"installation","title":"Installation","description":"TreeSpider can be installed with npm or can be included via CDN.","sidebar":"tutorialSidebar"},"intro":{"id":"intro","title":"Introduction","description":"TreeSpider is an easy-to-use javascript library built for the purpose of displaying organization structure and employee structure and hierarchy within the organization, i.e for displaying employee data to know who reports to who and in which department, it makes it easy to manage employees in any organization of all sizes.","sidebar":"tutorialSidebar"},"methods":{"id":"methods","title":"Methods","description":"The following methods can be used to interact with TreeSpider programmatically","sidebar":"tutorialSidebar"},"options":{"id":"options","title":"Options","description":"TreeSpider can be personalized and customized with the options, the options are as follows","sidebar":"tutorialSidebar"},"tree-data":{"id":"tree-data","title":"Tree Data","description":"The TreeSpider tree data is straight forward, each employee has the required id and parentId properties, the parentId is for specifying the employee that an employee reports to, and the root employee or the overall head of the organization should not have the parentId property.","sidebar":"tutorialSidebar"},"trees":{"id":"trees","title":"Trees","description":"These are the different tree choices that can be chosen from, they will be caterized into radial and non-radial trees:","sidebar":"tutorialSidebar"}}}}');
 
 /***/ }),
 
@@ -21887,7 +21887,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"name":"docusaurus-plugin-content-pag
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		__webpack_require__.p = "/";
+/******/ 		__webpack_require__.p = "/treespider-doc/";
 /******/ 	})();
 /******/ 	
 /************************************************************************/
